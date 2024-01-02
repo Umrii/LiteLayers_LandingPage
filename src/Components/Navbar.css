@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #5C2D91;
+    padding: 0 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    margin-left:3rem;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 100px;
+  }
+  
+  .logo-text {
+    font-family: 'Poppins', sans-serif; /* Adjust if the font is different */
+  font-size: 48px; /* Adjust based on the actual size in your design */
+  font-weight: 800; /* Adjust based on the actual weight in your design */
+  color: #FFFFFF; /* Assuming the text is white */
+  margin-left: 16px; /* Adjust the margin to set the distance from the logo */
+  
+  }
+  
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+  }
+  .text-top {
+    transform: translateY(-50%) translateX(-10%); /* Moves the text up and to the left */
+    background: #FFF5F5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.84px;
+}
+  
+  .text-bottom {
+    transform: translateY(50%) translateX(-70%); /* Moves the text down and to the right */
+    background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.84px;
+    opacity: 50%;
+  }
+  
+  .button {
+    border-radius: 10px;
+    padding: 10px 20px; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .logo-divider {
+  width: 1px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height to match your design */
+  background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%); /* Assuming the divider is white */
+  margin: 0 16px; /* Adjust margins to set the distance from the logo and text */
+}
+  
+  .browse-now {
+    width: 137px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #5C2D91;
+    color:#FFF;
+    border:none;
+    white-space: nowrap;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+        
+    }
+  
+  .grab-the-app {
+    
+    color: #66389C;
+    display: flex;
+    width: 153px;
+    height: 48px;
+    white-space: nowrap;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-right:3rem;
+    gap: 10px;
+    outline: none;
+    border: none;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+  }
+  
+@media (max-width: 320px) and (max-height: 150px) {
+
+  
+  .grab-the-app {
+    margin-right: 0rem;
+
+  }
+  
+}
