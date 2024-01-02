@@ -1,19 +1,17 @@
 .about-parent {
     display: flex;
-        flex-wrap: wrap;
-        flex:1;
+    flex-wrap: wrap;
+    flex:1;
 }
 
-.banner {
-    flex: 1;
-   
-}
 .text {
     flex: 1;
     display:flex;
     flex-direction: column;
+    width:50%;
    
 }
+
 .heading{
     margin-left:6rem;
     margin-top:8rem;
@@ -32,6 +30,7 @@
         height: 72px;
         flex-shrink: 0;
 }
+  
 .sub_text p{
     
     margin-left:6rem;
@@ -46,17 +45,21 @@
     flex-shrink: 0;
     /* 39.5px */
 }
-
-
 .banner {
+    flex: 1;
     display: flex;
+    width:50%;
     position:relative;
-}
+    align-items: center;
+    justify-content: center;
+} 
+
 
 .image-banner,
 .download {
     flex: 1;
     position: relative;
+   
 
   
 }
@@ -65,8 +68,24 @@
 .image-banner {
     /* background-color: lightblue; */
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
     
    
+}
+.content, .play, .apple {
+    margin-bottom: 10px; /* Spacing between each item */
+}
+.left-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    margin-right: 20px; /* Spacing between the left content and banner image */
+    margin-bottom:12rem;
+}
+.left-content p{
+    margin-bottom:10rem;
+
 }
 
 
@@ -74,13 +93,50 @@
 width: 643px;
     height: 469px;
     flex-shrink: 0;
-    margin-left:9rem;
+    
 }
 @media screen and (max-width: 768px) {
+    .image-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centers the content */
+    }
     .about-parent {
         flex-direction: column;
         /* Stack elements vertically on smaller screens */
     }
+    .play, .apple {
+        display: flex;
+        justify-content: center; /* Center the play and apple icons horizontally */
+    }
+    .text{
+        width:50%;
+        box-sizing: border-box;
+    }
+    .banner{
+        width:50%;
+        box-sizing: border-box;
+
+    }
+    .content, .play, .apple, .or, .banner-image {
+        width: 100%!important; /* Adjust the width as needed */
+        margin-bottom: 15px!important; /* Space between elements */
+    }
+    .sub_text p{
+        font-size: 14px; /* Smaller font size */
+        line-height: 1.4; /* Adjust line height for compact text */
+        padding: 10px; /* Adjust padding as needed */
+        max-height: 200px; /* Set a maximum height */
+        margin-left:0rem;
+        height: auto;
+        width: auto;
+       
+    }
+    .heading p{
+        width:0;
+        font-size:20px ;
+    }
+
         .heading {
             margin-left: 2rem;
             
@@ -102,6 +158,30 @@ width: 643px;
             width: 100%;
             /* Make the image take full width on smaller screens */
             height: auto;
+        }
+        .banner-image {
+            width: 15rem!important;  
+            height: auto; /* Maintain aspect ratio */
+        }
+        .content{
+            margin-left:0rem!important;
+        }
+        .left-content{
+            margin-bottom:4rem;
+        }
+        .play{
+            margin-left:0rem!important;
+            width:50%!important;
+        }
+        .apple{
+            margin-left:0rem!important;
+            width:50%!important;
+        }
+        .or{
+            margin-top:13.6rem!important;
+            margin-left:20rem!important;
+            
+
         }
 }
 .download_app{
@@ -141,5 +221,8 @@ width: 164px;
 
 }
 .or{
-    margin-top:10rem;
+    /* margin-top:10rem; */
+    /* margin-right: 20px;  */
+    position: absolute;
+    margin-left: 19rem;
 }

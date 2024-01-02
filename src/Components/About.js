@@ -21,23 +21,32 @@ const About = () => {
       </div>
 
       <div className="banner">
-        <div className="image-banner">
-          <div className="content">
-            {" "}
-            <p>Download Our App</p>
-          </div>
-          <div className="play">
-            <img src={play} alt="google play" />
-          </div>
-          <div className="apple">
-            <img className="apple1" src={apple} alt="ios" />
-          </div>
-          <div>
-            <p className="or">or</p>
-          </div>
-          <img className="image" src={banner_image} alt="banner" />
+    <div className="image-banner">
+        <div className="left-content">
+            <div className="content">
+                <p>Download Our App</p>
+                
+               
+            </div>
+          
+            <div className="play">
+                <img src={play} alt="google play" />
+                 
+            </div>
+            <p></p>
+            <div className="apple">
+                <img className="apple1" src={apple} alt="ios" />
+            </div>
+           
+           
         </div>
-      </div>
+       
+        <img className="banner-image" src={banner_image} alt="banner" />
+        <div class="or"><p>or</p></div>
+    </div>
+
+</div>
+
     </div>
   );
 };
