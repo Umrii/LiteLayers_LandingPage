@@ -11,8 +11,9 @@ function App() {
       <Navbar />
       <Changebg />
       <Categories />
-      {/* <Tell /> */}
-      {/* <About /> */}
+       <About />
+      <Tell />
+     
 
       <Footer />
     </div>

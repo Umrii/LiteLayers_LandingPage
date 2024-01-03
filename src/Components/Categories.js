@@ -8,7 +8,7 @@ import ctg5 from "../Assets/ctg5.png";
 
 const Categories = () => {
   return (
-    <div className="ctg-main-parent">
+   
       <div className="ctg-parent">
         <p className="ctg-text">Categories</p>
         <div className="swiper">swiper</div>
@@ -23,7 +23,7 @@ const Categories = () => {
           <img src={ctg5} alt="categorey2" />
         </div>
       </div>
-    </div>
+    
   );
 };
 

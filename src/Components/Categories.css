@@ -1,18 +1,16 @@
-.ctg-main-parent{
-    z-index: 2;
-}
 
 .ctg-parent{
     width: 100vw;
-    height: 100vh;
+    height:50rem;    
+    /* when swiper add auto */
      display: flex;
-     position:absolute;
-   
+     position:relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background:#241c2c;     
     overflow: auto; 
+    overflow:auto;
 }
 .ctg-text{
     top:10%;
