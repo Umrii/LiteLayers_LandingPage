@@ -1,0 +1,68 @@
+.tell-parent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+  
+    background: #241c2c;
+}
+
+.tellimg {
+position: absolute;
+bottom: 0;
+right: 0;
+max-width: 100%;
+height: auto;
+mix-blend-mode: multiply;
+}
+.tell-us-text{
+color: #FFF;
+font-family: 'Poppins';
+font-size: 40px;
+position:relative; 
+ font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+.tellus_sub_text_parent{
+    position:relative;
+    width: 70%;
+    height:30%;
+    top:50%;
+    right:10%;
+    /* background-color: lightgray; */
+}
+.tellus_sub_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.everything{
+    /* background-color: lightgrey; */
+    width: 20%;
+        height: 30%;
+        top:20%;
+        left:35%;
+        position:relative;
+}
+
+@media (min-width: 320px) and (max-width: 700px)
+ {
+
+    .tellus_sub_text_parent{
+        top:25%;
+
+    }
+    .everything{
+        top:0%;
+        left:0%;
+
+    }
+  
+}

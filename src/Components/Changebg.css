@@ -1,0 +1,200 @@
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    padding:3rem;
+}
+
+.bg-text,.bg-content {
+  flex:1 1 auto;
+  margin:1rem;
+
+}
+.bg-text{
+    display: flex;
+        flex-direction: column;
+}
+.main-image{
+    width: 800px;
+        height: 703px;
+        flex-shrink: 0;
+}
+.bg-heading{
+margin-top:12rem;
+color: #66389C;
+font-family: 'Poppins';
+   
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 646px;
+        height: 110px;
+        flex-shrink: 0;
+        
+
+}
+.bg-sub_text{
+    color: #000;
+        font-family: 'Poppins';
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 158%;
+        width: 646px;
+            height: 207px;
+            flex-shrink: 0;
+            padding-top:2rem;
+        
+}
+.bg-content{
+    justify-content: center;
+        align-items: center;
+        display:flex;
+        position:relative;
+        
+}
+.image-content{
+  
+    position:absolute;
+  bottom:0;
+    right:0;
+    width: 426px;
+        height: 310px;
+        flex-shrink: 0;
+        border-radius: 25px;
+        border-radius: 31px;
+            background: #FFF;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  
+
+}
+.bg-play{
+position: absolute;
+    bottom: 30%;
+    right: 0;
+}
+.bg-apple{
+    width: 165px;
+        height: 100px;
+        flex-shrink: 0;
+        position: absolute;
+            bottom: 15%;
+            right: 0;
+        
+
+}
+.our-app{
+    position: absolute;
+    top: 5%;
+    right:15%;
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 246px;
+    height: 72px;
+    flex-shrink: 0;
+    padding:10px;
+            
+}
+.QR{
+    position:absolute;
+    bottom:8%;
+    right:40%;
+    width: 70%;
+        height: 70%;
+        flex-shrink: 0;
+}
+.bg-OR{
+    position:absolute;
+bottom:35%;
+left:45%;
+font-family: 'Poppins';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-shrink: 0;
+}
+.download-button-div{
+    flex-basis: 100%;
+    position:relative;
+    margin-bottom: 4rem;;
+    
+}
+.download-button{
+    right:5%;
+    position:absolute;
+    background-color: red;
+    width: 255px;
+        height: 63px;
+        flex-shrink: 0;
+        border-radius: 33px;
+            background: #34283F;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.download-app{
+    color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Poppins';
+        font-size: 19px;
+        font-style: italic;
+        font-weight: 600;
+        line-height: normal;
+        width: 176px;
+            height: 76px;
+            flex-shrink: 0;
+        letter-spacing: 1.33px;
+        right:0;
+        position:absolute;
+        top:25%;
+}
+.qr2{
+    width: 55px;
+        height: 42px;
+        flex-shrink: 0;
+        position:absolute;
+        right:70%;
+        top:20%;
+}
+
+@media (min-width: 1750px) {
+
+
+    .download-button {
+        position: absolute;
+        right: 2%;
+
+    }
+
+
+}
+@media (max-width: 850px) {
+
+
+    .parent {
+        flex-direction: column;
+       
+
+    }
+    .download-button{
+        position:absolute;
+        right: 7%;
+
+    }
+
+
+}
+@media (max-width: 768px) {
+
+   
+    .parent {
+        flex-direction: column;
+        
+    }
+   
+    
+}
