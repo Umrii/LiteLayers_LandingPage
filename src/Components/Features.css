@@ -1,0 +1,75 @@
+
+
+.features-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+
+
+.feature1,
+.feature2,
+.feature3,
+.feature4 {
+  
+    padding: 10px;
+    margin: 2rem;
+    /* reduce this for low size screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+.features-heading1,.features-heading2,.features-heading3,.features-heading4{
+    color: #66389C;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.features-content1,.features-content2,.features-content3,.features-content4{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    /* remove these for low size screens */
+    width: 299px;
+        height: 133px;
+        flex-shrink: 0;
+    line-height: 145%;
+
+}
+
+
+@media (max-width: 1024px) {
+    .features-parent {
+        flex-wrap: wrap;
+    }
+
+    .feature1,
+    .feature2,
+    .feature3,
+    .feature4 {
+        width: 100%;
+        margin: 5px;
+        margin: 0;
+    }
+        .features-content1,
+        .features-content2,
+        .features-content3,
+        .features-content4 {
+          
+            /* remove these for low size screens */
+            width: auto;
+            height: auto;
+            flex-shrink: 0;
+            line-height: 145%;
+    
+        }
+}
