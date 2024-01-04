@@ -19,20 +19,21 @@ const Changebg = () => {
 
       <div className="bg-content">
         <img class="main-image" src={filter_image} alt="logo" />
-        <div className="image-content">
+        </div>
+        {/* <div className="image-content">
           <p class="our-app">Download Our App</p>
           <p className="bg-OR">OR</p>
           <img src={qr_code} alt="qr_code" className="QR" />
           <img src={bg_play} alt="google play link" className="bg-play" />
           <img src={bg_apple} alt="ios link" className="bg-apple" />
         </div>
-      </div>
-      <div className="download-button-div">
+      </div> */}
+      {/* <div className="download-button-div">
         <div className="download-button">
           <p className="download-app">Download App</p>
           <img src={qr2} alt="qrcode" className="qr2" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

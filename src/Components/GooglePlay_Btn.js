@@ -3,16 +3,22 @@ import "./GooglePlay.css";
 import gplay from "../Assets/google-play.png";
 const GooglePlay_Btn = () => {
   return (
-    <div className="play-btn-parent">
-      <div className="play-btn">
-        <img className="googleplay-img" alt="googleplay" src={gplay} />
-        <p className="googleplay-text">
-          <span style={{ textTransform: "uppercase" }}>Get It On</span>
-          <span>Google Play</span>
-        </p>
-      </div>
-    </div>
+    <a href="https://play.google.com" className="google-play-button">
+      <svg
+        className="google-play-logo"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="#ffffff" // Set the fill color to white
+      >
+        {/* Define the SVG path for the Google Play icon here */}
+      </svg>
+      <span>GET IT ON</span>
+      <span className="google-play-text">Google Play</span>
+    </a>
+   
   );
 };
 
 export default GooglePlay_Btn;
+
+

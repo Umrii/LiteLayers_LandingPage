@@ -12,8 +12,10 @@ function App() {
   return (
     <div>
       <Navbar />
+        <Discover />
+      
 
-      <Discover />
+    
       <Features />
       <Diverse />
 

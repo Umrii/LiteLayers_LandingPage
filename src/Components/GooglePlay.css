@@ -1,36 +1,26 @@
-.play-btn-parent {
-    position: relative;
-}
-
-.play-btn {
-    display: flex;
+.google-play-button {
+    display: inline-flex;
     align-items: center;
-    /* Center items vertically */
-    width: 15%;
-    height: 80px;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background: #000;
-    position: relative;
-    overflow: hidden;
-    /* Ensure children don't overflow */
-}
-
-.googleplay-text {
-    color: #fff;
-    margin-left: 5%;
-    /* Space between image and text */
-    flex: 1;
-    /* Allow text to take remaining space */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    line-height: 1.2;
-    /* Adjust line height if needed */
-}
-
-.googleplay-img {
-    height: 75%;
-    width: 35%;
-    margin-right: 5%;
-}
+    padding: 10px 20px;
+    background-color: #000000;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .google-play-button:hover {
+    background-color: #333333;
+  }
+  
+  .google-play-logo {
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .google-play-text {
+    color: #ffffff;
+    margin-left: 4px;
+  }
+  

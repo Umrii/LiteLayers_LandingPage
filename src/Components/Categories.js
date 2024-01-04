@@ -5,13 +5,13 @@ import ctg2 from "../Assets/ctg2.png";
 import ctg3 from "../Assets/ctg3.png";
 import ctg4 from "../Assets/ctg4.png";
 import ctg5 from "../Assets/ctg5.png";
-
+import Slider from './Slider';
 const Categories = () => {
   return (
    
       <div className="ctg-parent">
         <p className="ctg-text">Categories</p>
-        <div className="swiper">swiper</div>
+        <div className="swiper"><Slider/></div>
         <div className="app-text">
           <p className="best-app-text">The Best App You'll Ever Need</p>
         </div>

@@ -83,3 +83,17 @@
     line-height: 170%;
 
 }
+.iosimage-div {
+    display: flex;
+  }
+  .googleimage{
+margin-left: 4.8%;
+
+  }
+   .iosimage {
+   
+    flex: 0 0 150px; 
+    height: 100px;
+    margin: 30px;
+    margin-left: 0%;
+  }
