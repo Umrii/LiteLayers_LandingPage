@@ -19,8 +19,8 @@ const Changebg = () => {
 
       <div className="bg-content">
         <img class="main-image" src={filter_image} alt="logo" />
-        </div>
-        {/* <div className="image-content">
+      </div>
+      {/* <div className="image-content">
           <p class="our-app">Download Our App</p>
           <p className="bg-OR">OR</p>
           <img src={qr_code} alt="qr_code" className="QR" />

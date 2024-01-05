@@ -1,25 +1,26 @@
 .about-parent {
     display: flex;
     flex-wrap: wrap;
-    flex:1;
+    flex: 1;
 }
 
 .text {
     flex: 1;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    width:50%;
-   
+    width: 50%;
+
 }
 
-.heading{
-    margin-left:6rem;
-    margin-top:8rem;
-  
-      
-   }
-   .heading p{
-   
+.heading {
+    margin-left: 6rem;
+    margin-top: 6rem;
+
+
+}
+
+.heading p {
+
     color: #66389C;
     font-family: Poppins;
     font-size: 35px;
@@ -27,13 +28,13 @@
     font-weight: 700;
     line-height: normal;
     width: 390px;
-        height: 72px;
-        flex-shrink: 0;
+    height: 72px;
+    flex-shrink: 0;
 }
-  
-.sub_text p{
-    
-    margin-left:6rem;
+
+.sub_text p {
+
+    margin-left: 6rem;
     color: #000;
     font-family: 'Poppins';
     font-size: 25px;
@@ -45,23 +46,24 @@
     flex-shrink: 0;
     /* 39.5px */
 }
+
 .banner {
     flex: 1;
     display: flex;
-    width:50%;
-    position:relative;
+    width: 50%;
+    position: relative;
     align-items: center;
     justify-content: center;
-} 
+}
 
 
 .image-banner,
 .download {
     flex: 1;
     position: relative;
-   
 
-  
+
+
 }
 
 
@@ -70,157 +72,200 @@
     flex-shrink: 0;
     display: flex;
     align-items: center;
-    
-   
+
+
 }
-.content, .play, .apple {
-    margin-bottom: 10px; /* Spacing between each item */
+
+.content,
+.play,
+.apple {
+    margin-bottom: 10px;
+    /* Spacing between each item */
 }
+
 .left-content {
     display: flex;
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column;
+    /* Stack items vertically */
     justify-content: center;
-    margin-right: 20px; /* Spacing between the left content and banner image */
-    margin-bottom:12rem;
-}
-.left-content p{
-    margin-bottom:10rem;
-
+    margin-right: 20px;
+    /* Spacing between the left content and banner image */
+    margin-bottom: 12rem;
 }
 
+.left-content p {
+    margin-bottom: 10rem;
 
-.image{
-width: 643px;
+}
+
+
+.image {
+    width: 643px;
     height: 469px;
     flex-shrink: 0;
-    
+
 }
+
 @media screen and (max-width: 768px) {
     .image-banner {
         display: flex;
         flex-direction: column;
-        align-items: center; /* Centers the content */
+        align-items: center;
+        /* Centers the content */
     }
+
     .about-parent {
         flex-direction: column;
         /* Stack elements vertically on smaller screens */
     }
-    .play, .apple {
+
+    .play,
+    .apple {
         display: flex;
-        justify-content: center; /* Center the play and apple icons horizontally */
+        justify-content: center;
+        /* Center the play and apple icons horizontally */
     }
-    .text{
-        width:50%;
+
+    .text {
+        width: 50%;
         box-sizing: border-box;
     }
-    .banner{
-        width:50%;
+
+    .banner {
+        width: 50%;
         box-sizing: border-box;
 
     }
-    .content, .play, .apple, .or, .banner-image {
-        width: 100%!important; /* Adjust the width as needed */
-        margin-bottom: 15px!important; /* Space between elements */
+
+    .content,
+    .play,
+    .apple,
+    .or,
+    .banner-image {
+        width: 100% !important;
+        /* Adjust the width as needed */
+        margin-bottom: 15px !important;
+        /* Space between elements */
     }
-    .sub_text p{
-        font-size: 14px; /* Smaller font size */
-        line-height: 1.4; /* Adjust line height for compact text */
-        padding: 10px; /* Adjust padding as needed */
-        max-height: 200px; /* Set a maximum height */
-        margin-left:0rem;
+
+    .sub_text p {
+        font-size: 14px;
+        /* Smaller font size */
+        line-height: 1.4;
+        /* Adjust line height for compact text */
+        padding: 10px;
+        /* Adjust padding as needed */
+        max-height: 200px;
+        /* Set a maximum height */
+        margin-left: 0rem;
         height: auto;
         width: auto;
-       
-    }
-    .heading p{
-        width:0;
-        font-size:20px ;
+
     }
 
-        .heading {
-            margin-left: 2rem;
-            
-            margin-top: 4rem;
-            width: 100%;
-          
-            text-align: center;
-           
-        }
-    
-        .sub_text {
-            margin-left: 2rem;
-            
-            width: 100%;
-          
-        }
-    
-        .image {
-            width: 100%;
-            /* Make the image take full width on smaller screens */
-            height: auto;
-        }
-        .banner-image {
-            width: 15rem!important;  
-            height: auto; /* Maintain aspect ratio */
-        }
-        .content{
-            margin-left:0rem!important;
-        }
-        .left-content{
-            margin-bottom:4rem;
-        }
-        .play{
-            margin-left:0rem!important;
-            width:50%!important;
-        }
-        .apple{
-            margin-left:0rem!important;
-            width:50%!important;
-        }
-        .or{
-            margin-top:13.6rem!important;
-            margin-left:20rem!important;
-            
+    .heading p {
+        width: 0;
+        font-size: 20px;
+    }
 
-        }
+    .heading {
+        margin-left: 2rem;
+
+        margin-top: 4rem;
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+    .sub_text {
+        margin-left: 2rem;
+
+        width: 100%;
+
+    }
+
+    .image {
+        width: 100%;
+        /* Make the image take full width on smaller screens */
+        height: auto;
+    }
+
+    .banner-image {
+        width: 15rem !important;
+        height: auto;
+        /* Maintain aspect ratio */
+    }
+
+    .content {
+        margin-left: 0rem !important;
+    }
+
+    .left-content {
+        margin-bottom: 4rem;
+    }
+
+    .play {
+        margin-left: 0rem !important;
+        width: 50% !important;
+    }
+
+    .apple {
+        margin-left: 0rem !important;
+        width: 50% !important;
+    }
+
+    .or {
+        margin-top: 13.6rem !important;
+        margin-left: 20rem !important;
+
+
+    }
 }
-.download_app{
-    margin-top:10rem;
-}
-.content{
-    z-index:1;
-    margin-top:9rem;
-    margin-left:5rem;
-    position: absolute;
-}
-.content p{
-    color: #000;
-        font-family: 'Poppins';
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-}
-.play{
-    position: absolute;
-    
+
+.download_app {
     margin-top: 10rem;
-    margin-left:7rem;
+}
+
+.content {
+    z-index: 1;
+    margin-top: 9rem;
+    margin-left: 5rem;
+    position: absolute;
+}
+
+.content p {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.play {
+    position: absolute;
+
+    margin-top: 10rem;
+    margin-left: 7rem;
 
 }
-.apple{
+
+.apple {
     position: absolute;
     margin-top: 16rem;
-   margin-left: 7rem;
+    margin-left: 7rem;
 
 }
-.apple1{
-width: 164px;
+
+.apple1 {
+    width: 164px;
     height: 86px;
     flex-shrink: 0;
 
 }
-.or{
+
+.or {
     /* margin-top:10rem; */
     /* margin-right: 20px;  */
     position: absolute;

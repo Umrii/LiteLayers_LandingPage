@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../Assets/logo.png";
 import lite from "../Assets/footer-logo.png";
 import social from "../Assets/footer-social-media.png";
+import fit from "../Assets/fit.PNG";
 import "./Footer.css";
 
 const Footer = () => {
@@ -40,7 +41,7 @@ const Footer = () => {
               <p className=" follow-us">Follow Us</p>
               <img
                 className="social-icons"
-                src={social}
+                src={fit}
                 alt="social media icons"
               />
             </div>

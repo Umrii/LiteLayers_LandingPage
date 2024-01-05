@@ -15,6 +15,7 @@ const Features = () => {
           LiteLayer has more than 436 million downloads
         </p>
       </div>
+
       <div class="feature2">
         <img src={feature2img} alt="feature2" />
         <p className="features-heading2">Free & Premium Content</p>
@@ -23,6 +24,7 @@ const Features = () => {
           pieces ready for your exploration.
         </p>
       </div>
+
       <div class="feature3">
         <img src={feature3img} alt="feature3" />
         <p className="features-heading3">Top tier content creators</p>
@@ -31,6 +33,7 @@ const Features = () => {
           collection encompasses a diverse array of artistic brilliance.
         </p>
       </div>
+
       <div class="feature4">
         <img src={feature4img} alt="feature4" />
         <p className="features-heading4">NFTs made easy</p>

@@ -1,93 +1,101 @@
-
 .parent {
     display: flex;
-    flex-wrap: wrap;
-    padding:3rem;
-}
-
-.bg-text,.bg-content {
-  flex:1 1 auto;
-  margin:1rem;
-
-}
-.bg-text{
-    display: flex;
-        flex-direction: column;
-}
-.main-image{
-    width: 800px;
-        height: 703px;
-        flex-shrink: 0;
-}
-.bg-heading{
-margin-top:12rem;
-color: #66389C;
-font-family: 'Poppins';
-   
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 646px;
-        height: 110px;
-        flex-shrink: 0;
-        
-
-}
-.bg-sub_text{
-    color: #000;
-        font-family: 'Poppins';
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 158%;
-        width: 646px;
-            height: 207px;
-            flex-shrink: 0;
-            padding-top:2rem;
-        
-}
-.bg-content{
+    /* flex-wrap: wrap; */
     justify-content: center;
-        align-items: center;
-        display:flex;
-        position:relative;
-        
+    align-items: center;
+    padding: 0 20px;
+    margin: 30px 0;
+    margin-top: -60px;
+    border-radius: 40px 40px 0 0;
+    background-color: #ffffff;
+    padding-top: 30px;
 }
-.image-content{
-  
-    position:absolute;
-  bottom:0;
-    right:0;
-    width: 426px;
-        height: 310px;
-        flex-shrink: 0;
-        border-radius: 25px;
-        border-radius: 31px;
-            background: #FFF;
-            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  
+
+.bg-text {
+    flex: 1 1 50%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-image {
+    width: 100%;
+}
+
+.bg-content {
+    /* flex: 1 1 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative; */
+    width: 35%;
+    padding-top: 35px;
+}
+
+.bg-heading {
+    /* margin-top: 12rem; */
+    color: #66389C;
+    font-family: 'Poppins';
+    font-size: 35px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    /* width: 646px;
+    height: 110px; */
+    /* flex-shrink: 0; */
+}
+
+.bg-sub_text {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    /* width: 646px;
+    height: 207px; */
+    flex-shrink: 0;
+    padding-top: 2rem;
 
 }
-.bg-play{
-position: absolute;
+
+.image-content {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 426px;
+    height: 310px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border-radius: 31px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.bg-play {
+    position: absolute;
     bottom: 30%;
     right: 0;
 }
-.bg-apple{
+
+.bg-apple {
     width: 165px;
-        height: 100px;
-        flex-shrink: 0;
-        position: absolute;
-            bottom: 15%;
-            right: 0;
-        
+    height: 100px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+
 
 }
-.our-app{
+
+.our-app {
     position: absolute;
     top: 5%;
-    right:15%;
+    right: 15%;
     color: #000;
     font-family: 'Poppins';
     font-size: 23px;
@@ -97,37 +105,42 @@ position: absolute;
     width: 246px;
     height: 72px;
     flex-shrink: 0;
-    padding:10px;
-            
+    padding: 10px;
+
 }
-.QR{
-    position:absolute;
-    bottom:8%;
-    right:40%;
+
+.QR {
+    position: absolute;
+    bottom: 8%;
+    right: 40%;
     width: 70%;
-        height: 70%;
-        flex-shrink: 0;
+    height: 70%;
+    flex-shrink: 0;
 }
-.bg-OR{
-    position:absolute;
-bottom:35%;
-left:45%;
-font-family: 'Poppins';
+
+.bg-OR {
+    position: absolute;
+    bottom: 35%;
+    left: 45%;
+    font-family: 'Poppins';
     font-size: 23px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     flex-shrink: 0;
 }
-.download-button-div{
+
+.download-button-div {
     flex-basis: 100%;
-    position:relative;
-    margin-bottom: 4rem;;
-    
+    position: relative;
+    margin-bottom: 4rem;
+    ;
+
 }
-.download-button{
-    right:5%;
-    position:absolute;
+
+.download-button {
+    right: 5%;
+    position: absolute;
     background-color: red;
     width: 255px;
     height: 63px;
@@ -136,7 +149,8 @@ font-family: 'Poppins';
     background: #34283F;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.download-app{
+
+.download-app {
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Poppins';
@@ -148,17 +162,53 @@ font-family: 'Poppins';
     height: 76px;
     flex-shrink: 0;
     letter-spacing: 1.33px;
-    right:0;
-    position:absolute;
-    top:25%;
+    right: 0;
+    position: absolute;
+    top: 25%;
 }
-.qr2{
+
+.qr2 {
     width: 55px;
-        height: 42px;
-        flex-shrink: 0;
-        position:absolute;
-        right:70%;
-        top:20%;
+    height: 42px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 70%;
+    top: 20%;
+}
+
+@media(max-width: 450px) {
+    .bg-content {
+        width: 100% !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    /* .main-image {
+            width: 250px;
+            height: 200px;
+            flex-shrink: 0;
+           
+        }
+    
+        .bg-content {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            position: relative;
+            right: 80%;
+    
+        }
+        .bg-sub_text{
+            height:0;
+            width:0;
+
+                }
+                .bg-heading{
+                    height:0;
+                    width:0;
+                    margin-bottom:80%;
+                } */
+
 }
 
 @media (min-width: 1750px) {
@@ -172,29 +222,32 @@ font-family: 'Poppins';
 
 
 }
+
 @media (max-width: 850px) {
 
 
     .parent {
         flex-direction: column;
-       
+
 
     }
-    .download-button{
-        position:absolute;
+
+    .download-button {
+        position: absolute;
         right: 7%;
 
     }
 
 
 }
+
 @media (max-width: 768px) {
 
-   
+
     .parent {
         flex-direction: column;
-        
+
     }
-   
-    
+
+
 }

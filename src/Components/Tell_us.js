@@ -13,7 +13,9 @@ const Tell_us = () => {
           wallpapers, ringtones and notifications For your phone.
         </p>
       </div>
-      <img className="tellimg" src={tellimg} alt="bg" />
+      <div className="tellimg">
+        <img src={tellimg} alt="bg" />
+      </div>
     </div>
   );
 };

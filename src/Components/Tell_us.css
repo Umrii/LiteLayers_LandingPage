@@ -1,39 +1,44 @@
 .tell-parent {
-    width: 100vw;
-    height: 50rem;
+    /* width: 100vw; */
+    height: 30rem;
+    overflow: hidden;
     display: flex;
     position: relative;
     justify-content: center;
-  
+
     background: #241c2c;
 }
 
 .tellimg {
-position: absolute;
-bottom: 0;
-right: 0;
-max-width: 100%;
-height: auto;
-mix-blend-mode: multiply;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* max-width: 100%; */
+    height: auto;
+    mix-blend-mode: multiply;
+    width: 80%;
 }
-.tell-us-text{
-color: #FFF;
-font-family: 'Poppins';
-font-size: 40px;
-position:relative; 
- font-style: normal;
-font-weight: 700;
-line-height: normal; 
+
+.tell-us-text {
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 40px;
+    position: relative;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.tellus_sub_text_parent{
-    position:relative;
+
+.tellus_sub_text_parent {
+    position: relative;
     width: 70%;
-    height:30%;
-    top:50%;
-    right:10%;
+    height: 30%;
+    top: 32%;
+    right: 10%;
     /* background-color: lightgray; */
 }
-.tellus_sub_text{
+
+.tellus_sub_text {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -43,26 +48,44 @@ line-height: normal;
     line-height: normal;
 
 }
-.everything{
-    /* background-color: lightgrey; */
+
+.everything {
     width: 20%;
-        height: 30%;
-        top:20%;
-        left:35%;
-        position:relative;
+    height: 30%;
+    top: 3%;
+    text-align: center;
+    left: 34%;
+    position: relative;
 }
 
-@media (min-width: 320px) and (max-width: 700px)
- {
+.footer_border {
+    border-top: 2px solid black;
+    border-radius: 40px 40px 0px 0px;
+    background: #FFF;
+    margin-top: -40px;
+    position: relative;
+    padding-top: 50px;
+}
 
-    .tellus_sub_text_parent{
-        top:25%;
+@media (min-width: 320px) and (max-width: 700px) {
+
+    .tellus_sub_text_parent {
+        top: 35%;
+
 
     }
-    .everything{
-        top:0%;
-        left:0%;
 
+    .tell-us-text {
+        font-size: 26px;
     }
-  
+
+    .tellus_sub_text {
+        font-size: 15px;
+    }
+
+    .everything {
+        top: 0%;
+        left: 0%;
+    }
+
 }
