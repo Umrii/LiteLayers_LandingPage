@@ -1,10 +1,10 @@
 import React from "react";
 import "./Changebg.css";
 import filter_image from "../Assets/filters.PNG";
-import bg_play from "../Assets/image 12.svg";
-import bg_apple from "../Assets/apple1.png";
-import qr_code from "../Assets/QR.png";
-import qr2 from "../Assets/qr2.PNG";
+// import bg_play from "../Assets/image 12.svg";
+// import bg_apple from "../Assets/apple1.png";
+// import qr_code from "../Assets/QR.png";
+// import qr2 from "../Assets/qr2.PNG";
 const Changebg = () => {
   return (
     <div className="parent">

@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../Assets/logo.png";
 import lite from "../Assets/footer-logo.png";
-import social from "../Assets/footer-social-media.png";
+// import social from "../Assets/footer-social-media.png";
 import fit from "../Assets/fit.PNG";
 import "./Footer.css";
 
