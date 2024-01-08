@@ -1,64 +1,65 @@
-.tell-parent {
-    /* width: 100vw; */
-    height: 30rem;
-    overflow: hidden;
-    display: flex;
+/* CSS File (YourComponent.css) */
+
+.tellus_container {
     position: relative;
-    justify-content: center;
-
     background-color: #342547;
-}
-
-.tellimg {
+    height: 100%; /* Take full height of the viewport */
+    width: 100%; /* Take full width of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .tellus_background-image {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    /* max-width: 100%; */
-    height: auto;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Assets/tellus.PNG'); /* Update with actual path */
+    background-size: cover;
+    background-repeat: no-repeat;
     mix-blend-mode: multiply;
-    width: 80%;
-}
-
-.tell-us-text {
-    color: #FFF;
+  }
+  
+  .tellus_content {
+    position: relative;
+    color: #fff; /* Choose a color that makes the text readable over your background */
+    z-index: 1; /* Ensure content is above the background image */
     font-family: 'Poppins';
     font-size: 40px;
     position: relative;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
-
-.tellus_sub_text_parent {
-    position: relative;
-    width: 70%;
-    height: 30%;
-    top: 32%;
-    right: 10%;
-    /* background-color: lightgray; */
-}
-
-.tellus_sub_text {
+    max-width: 90%; /* Responsive width */
+    margin: 0 auto; /* Center the content */
+  }
+  .tellus_content h1{
+    margin-bottom:7%;
+    font-size: 40px;
+    margin-top:10%;
+    font-family: 'Poppins';
+  }
+  .tellus_content p{
+    font-family: 'Poppins';
     color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-
-}
-
-.everything {
-    width: 20%;
-    height: 30%;
-    top: 3%;
-    text-align: center;
-    left: 34%;
+    width:60%;
+    left:20%;
     position: relative;
-}
 
-.footer_border {
+  }
+ .testimonial{
+    margin-top:2%;
+    margin-bottom:15%;
+    margin-left:20%;
+ }
+ .footer_border {
     border-top: 2px solid black;
     border-radius: 40px 40px 0px 0px;
     background: #FFF;
@@ -67,25 +68,38 @@
     padding-top: 50px;
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
-
-    .tellus_sub_text_parent {
-        top: 35%;
-
-
+  /* Responsive typography */
+  @media(min-width:320px) and (max-width:375px)
+  {
+    .testimonial{
+        margin-bottom:20%;
+      
     }
-
-    .tell-us-text {
-        font-size: 26px;
+  }
+  @media (min-width: 320px) {
+    .tellus_content h1 {
+      font-size: 24px;
     }
-
-    .tellus_sub_text {
-        font-size: 15px;
+    .tellus_content p {
+      font-size: 14px;
     }
-
-    .everything {
-        top: 0%;
-        left: 0%;
+  }
+  
+  @media (min-width: 768px) {
+    .tellus_content h1 {
+      font-size: 32px;
     }
-
-}
+    .tellus_content p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .tellus_content h1 {
+      font-size: 40px;
+    }
+    .tellus_content p {
+      font-size: 18px;
+    }
+  }
+  

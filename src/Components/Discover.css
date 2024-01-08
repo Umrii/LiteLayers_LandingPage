@@ -34,13 +34,13 @@
 }
 
 .discover-heading {
-    font-family: Poppins;
-    font-size: 29px;
+    font-family: 'Poppins';
+    font-size: 38px;
     font-style: normal;
     font-weight: 700;
     line-height: 170%;
     color: #FFF;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 5%;
     letter-spacing: 5px;
 
@@ -49,21 +49,22 @@
 
 .discover-text {
     color: #FFF;
-    font-family: Poppins;
-    font-size: 21px;
+    font-family: 'Poppins';
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     margin-left: 5%;
     flex-wrap: wrap;
     line-height: 170%;
     letter-spacing: 1.68px;
-    margin-top: 20px;
+    margin-top:-20px;
+    width:75%;
 }
 
 .discover-sub_text {
     color: #FFF;
-    font-family: Poppins;
-    font-size: 21px;
+    font-family: 'Poppins';
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     margin-left: 5%;
@@ -75,22 +76,30 @@
 
 .discover-download {
     color: #FFF;
-    font-family: Poppins;
-    font-size: 21px;
+    font-family: 'Poppins';
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     margin-left: 5%;
     flex-wrap: wrap;
     line-height: 170%;
+    bottom:5%;
+    position: relative;
 
 }
 
 .iosimage-div {
     display: flex;
+    position: relative;
+    bottom:12%;
+    left:5%;
 }
 
 .googleimage {
-    margin-left: 4.8%;
+  
+    height:100px;
+    width:100px;
+    margin-right:20px;
 
 }
 
@@ -98,10 +107,11 @@
 
     flex: 0 0 150px;
     height: 100px;
-    margin: 30px;
+  
+   
     margin-left: 0%;
 }
-
+/* 
 @media(max-width: 450px) {
     .custom-background {
         flex-direction: column-reverse;
@@ -110,5 +120,44 @@
     .iosimage-div {
         flex-wrap: wrap;
 
+    }
+} */
+
+@media (max-width:375px)
+{
+    .iosimage
+    {
+        position: relative;
+        /* bottom:80px; */
+      
+    }
+    
+    .iosimage-div {
+        flex-wrap: wrap;
+
+    }
+    .custom-background {
+        flex-direction: column-reverse;
+    }
+
+
+}
+@media (max-width:425px)
+{
+    
+.discover-img {
+   
+    margin-top: 0px!important;
+}
+
+
+}
+@media (min-width:1900px)
+{
+    .discover-download{
+        bottom:0%;
+    }
+    .iosimage-div{
+        bottom:0%;
     }
 }

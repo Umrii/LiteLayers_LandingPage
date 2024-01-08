@@ -23,6 +23,7 @@
 .logo {
   /* width: 60px;
   height: 100px; */
+  height:100px;
 }
 
 .logo-text {
@@ -59,6 +60,8 @@
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.84px;
+  position:relative;
+  right:40px;
 }
 
 .text-bottom {
@@ -75,6 +78,8 @@
   line-height: normal;
   letter-spacing: 1.84px;
   opacity: 50%;
+  position: relative;
+  right:40px;
 }
 
 .button {
@@ -87,14 +92,12 @@
 }
 
 .logo-divider {
-  width: 1px;
-  /* Adjust the width as needed */
+  width: 1px;  
   height: 60px;
-  /* Adjust the height to match your design */
   background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
-  /* Assuming the divider is white */
   margin: 0 16px;
-  /* Adjust margins to set the distance from the logo and text */
+  position:relative;
+  right:40px;
 }
 
 .browse-now {

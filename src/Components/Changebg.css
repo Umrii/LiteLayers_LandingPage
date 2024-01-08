@@ -16,6 +16,7 @@
     max-width: 500px;
     display: flex;
     flex-direction: column;
+    margin-right:20%;
 }
 
 .main-image {
@@ -30,6 +31,7 @@
     position: relative; */
     width: 35%;
     padding-top: 35px;
+    
 }
 
 .bg-heading {
@@ -55,7 +57,10 @@
     /* width: 646px;
     height: 207px; */
     flex-shrink: 0;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
+    margin:0;
+    width:140%;
+    
 
 }
 

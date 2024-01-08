@@ -3,18 +3,12 @@ import "./Tell_us.css";
 import tellimg from "../Assets/tellus.PNG";
 const Tell_us = () => {
   return (
-    <div className="tell-parent">
-      <div className="everything">
-        <p className="tell-us-text">Tell us Everything</p>
-      </div>
-      <div className="tellus_sub_text_parent">
-        <p className="tellus_sub_text">
-          LiteLayer is my favorite app right now. It has so many awesome
-          wallpapers, ringtones and notifications For your phone.
-        </p>
-      </div>
-      <div className="tellimg">
-        <img src={tellimg} alt="bg" />
+    <div className="tellus_container">
+      <div className="tellus_background-image"></div>
+      <div className="tellus_content">
+        <h1>Tell us Everything</h1>
+        <p>LiteLayer is my favorite app right now. It has so many awesome wallpapers, ringtones and notifications For your phone.</p>
+        <p className="testimonial">"Umair Hashmi</p>
       </div>
     </div>
   );

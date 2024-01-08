@@ -3,6 +3,7 @@ import logo from "../Assets/logo.png";
 import lite from "../Assets/footer-logo.png";
 // import social from "../Assets/footer-social-media.png";
 import fit from "../Assets/fit.PNG";
+import footerlogos from "../Assets/LiteLayers.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className="foot-parent">
             <div className="child_1">
               {" "}
-              <img className="footer-logo" src={logo} alt="logo" />
+              <img className="footer-logo" src={ footerlogos} alt="logo" />
               <img className="lite-logo" src={lite} alt="logo" />
               <p className="logo-text">
                 Litelayer transforms your smartphone with personalized

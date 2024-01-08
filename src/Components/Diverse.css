@@ -191,6 +191,10 @@
 
     .diverse-change-bg {
         height: 39%;
+
+    }
+    .diverse-background{
+        width:100%!important;
     }
 
     .hd-imagetext {
@@ -204,5 +208,12 @@
     .hdtext-content {
         right: 9rem;
         top: 7rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .diverse-background{
+        width:100%!important;
     }
 }

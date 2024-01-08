@@ -13,7 +13,7 @@
 }
 
 .footer-logo {
-    width: 60px;
+    width: 100px;
     height: 100px;
     flex-shrink: 0;
     margin-left: 3rem;
@@ -180,6 +180,7 @@
     width: 100%;
     overflow: hidden;
     display: flex;
+    flex-wrap:wrap;
 }
 
 .child_1 {

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Discover.css";
 import discover_img from "../Assets/discover2.PNG";
-import iosimg from "../Assets/ios_button.png";
-import googleImg from "../Assets/play.png";
+import iosimg from "../Assets/discover_app.svg";
+import googleImg from "../Assets/discover_gplay.svg";
 const Discover = () => {
   return (
     <div className="background-parent">
@@ -16,17 +16,22 @@ const Discover = () => {
           <p className="discover-sub_text">Join the excitement!</p>
           <p className="discover-download">Download the app for FREE now</p>
           <div className="iosimage-div">
-            <img
-              className="googleimage"
-              src={googleImg}
-              alt="App Store Download Button"
-            />
-            <img
-              className="iosimage"
-              src={iosimg}
-              alt="App Store Download Button"
-            />
-          </div>
+    <a href="/" className="image-link">
+        <img
+            className="googleimage"
+            src={googleImg}
+            alt="Google Play Download Button"
+        />
+    </a>
+    <a href="/" className="image-link">
+        <img
+            className="iosimage"
+            src={iosimg}
+            alt="App Store Download Button"
+        />
+    </a>
+</div>
+
         </div>
 
         <div className="banner-image-box">
