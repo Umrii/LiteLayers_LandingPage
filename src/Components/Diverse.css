@@ -137,6 +137,33 @@
     line-height: normal;
     /* white-space: nowrap; */
 }
+.diverse-outline-wrapper {
+    position: relative;
+    /* Add any necessary styles to ensure the wrapper fits the image properly */
+  }
+  .diverse-outline-wrapper::before,
+.diverse-outline-wrapper::after {
+  content: '';
+  position: absolute;
+  background-color: white; /* the color of the lines */
+}
+
+/* Top and bottom lines */
+.diverse-outline-wrapper::before {
+  top: 0;
+  bottom: 0;
+  left: -10px; /* adjust as needed */
+  width: 2px; /* the thickness of the lines */
+}
+
+/* Left and right lines */
+.diverse-outline-wrapper::after {
+  left: 0;
+  right: 0;
+  top: -10px; /* adjust as needed */
+  height: 2px; /* the thickness of the lines */
+}
+
 
 @media(max-width: 450px) {
     .diverse-background {
@@ -206,6 +233,11 @@
         position: relative;
         bottom: 35%;
         left: 8%;
+        transition: all 0.3s ease-in-out;
+    }
+    .diverse-outline{
+        transition: all 0.3s ease-in-out;
+
     }
 
     .hdtext-content {

@@ -6,7 +6,14 @@ import diverseimg3 from "../Assets/diverse3.png";
 import diverseimg4 from "../Assets/diverse4.png";
 import diverseimg5 from "../Assets/diverse5.png";
 import diverseimg6 from "../Assets/diverse6.png";
-import diverseimg7 from "../Assets/diverse-arrow.PNG";
+// import diverseimg7 from "../Assets/diverse-arrow.PNG";
+import diverseimg8 from "../Assets/diverse-bg.png";
+import diverseimg9 from "../Assets/slide1.jpg";
+import diverseimg10 from "../Assets/slide2.jpg";
+import diverseimg11 from "../Assets/slide3.jpg";
+import diverseimg12 from "../Assets/slide1.jpg";
+import diverseimg13 from "../Assets/slide2.jpg";
+
 
 const Diverse = () => {
   const [selectedImage, setSelectedImage] = useState(0); // Track the selected image index
@@ -32,6 +39,9 @@ const Diverse = () => {
     diverseimg5,
     diverseimg6,
   ];
+  const slideImages=[
+  diverseimg8, diverseimg9,diverseimg10 ,diverseimg11, diverseimg12,diverseimg13
+  ]
 
   return (
     <div className="diverse-parent">
@@ -52,14 +62,15 @@ const Diverse = () => {
       </div>
       <div className="diverse-background">
         <div className="hd-imagetext">
-          <img className="hd-image" alt="hd-icon" src={diverseimg1} />
-          <p className="hdtext">Image HD</p>
+          <img className="hd-image" alt="hd-icon" src={diverseImages[selectedImage]}/>
+          <p className="hdtext">{imageTitles[selectedImage]}</p>
           <p className="hdtext-content">
             Upscale images by increasing resolution.
           </p>
         </div>
-        {/* <img src={diverseimg8} alt="arrows" className="diverse-outline" /> */}
-        <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" />
+        <div className="diverse-outline-wrapper">
+        <img src={slideImages[selectedImage]} alt="arrows" className="diverse-outline" /></div>
+        {/* <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" /> */}
       </div>
     </div>
   );
