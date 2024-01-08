@@ -12,18 +12,22 @@
   border-image-slice: 1;
   padding-bottom: 1%;
 
+
 }
 
 .logo-container {
   display: flex;
   align-items: center;
-  margin-left: 3rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
 }
 
 .logo {
   /* width: 60px;
   height: 100px; */
-  height:100px;
+  height: 70px;
+  margin-right: 2rem;
+  /* margin-top: 1rem; */
 }
 
 .logo-text {
@@ -60,8 +64,8 @@
   font-weight: 800;
   line-height: normal;
   letter-spacing: 1.84px;
-  position:relative;
-  right:40px;
+  position: relative;
+  right: 40px;
 }
 
 .text-bottom {
@@ -79,7 +83,7 @@
   letter-spacing: 1.84px;
   opacity: 50%;
   position: relative;
-  right:40px;
+  right: 40px;
 }
 
 .button {
@@ -92,12 +96,12 @@
 }
 
 .logo-divider {
-  width: 1px;  
+  width: 1px;
   height: 60px;
   background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
   margin: 0 16px;
-  position:relative;
-  right:40px;
+  position: relative;
+  right: 40px;
 }
 
 .browse-now {

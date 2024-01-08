@@ -1,15 +1,147 @@
 .about-parent {
     display: flex;
+    /* overflow: hidden; */
     flex-wrap: wrap;
-    flex: 1;
+    max-width: 100%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+
 }
 
 .text {
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    margin-left: 5%;
 
+
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner span {
+
+    right: 4%;
+    bottom: 5%;
+    position: relative;
+}
+
+.mobile-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+
+}
+
+.mobile-div {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scan-me {
+    text-align: center;
+    /* max-width: 80%; */
+    position: absolute;
+    top: 25%;
+    margin-left: 5px;
+    /* right: 1%; */
+    /* top: 50%;
+    
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.qr-code {
+    /* height: 100px;
+    width: 100px;
+
+    position: absolute; */
+}
+
+.centered-image {
+    /* position: absolute;
+    top: 50%;
+    /* Places the centered image container at 50% from the top of the parent */
+    /* left: 50%; */
+    /* Places the centered image container at 50% from the left of the parent */
+    /* transform: translate(-50%, -50%);
+    z-index: 1; */
+    margin-left: 10px;
+
+    position: absolute;
+
+}
+
+.about-content {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+
+
+.about_play {
+    width: 100px;
+    position: relative;
+
+}
+
+.about_app {
+    width: 100px;
+    /* position: absolute; */
+    /* margin-bottom: 100px; */
+
+}
+
+.text h1 {
+    color: #66389C;
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text p {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 158%;
+    /* 39.5px */
+}
+
+.download-our-app {
+    color: #000;
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    bottom: 80%;
+}
+
+@media(max-width:768px) {
+    .about-parent {
+        flex-direction: column;
+    }
 }
 
 .heading {
@@ -45,15 +177,6 @@
     height: 218px;
     flex-shrink: 0;
     /* 39.5px */
-}
-
-.banner {
-    flex: 1;
-    display: flex;
-    width: 50%;
-    position: relative;
-    align-items: center;
-    justify-content: center;
 }
 
 
@@ -114,10 +237,10 @@
         /* Centers the content */
     }
 
-    .about-parent {
+    /* .about-parent {
         flex-direction: column;
         /* Stack elements vertically on smaller screens */
-    }
+    /* }  */
 
     .play,
     .apple {
@@ -126,16 +249,16 @@
         /* Center the play and apple icons horizontally */
     }
 
-    .text {
+    /* .text {
         width: 50%;
         box-sizing: border-box;
-    }
-
+    } */
+    /* 
     .banner {
         width: 50%;
         box-sizing: border-box;
 
-    }
+    } */
 
     .content,
     .play,

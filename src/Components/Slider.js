@@ -5,6 +5,7 @@ import image2 from "../Assets/slider4.png";
 import image3 from "../Assets/slide3.jpg";
 
 const images = [image1, image2, image3];
+const texts = ["Blosom", "Aesthetics", "Cars and Vehicles"];
 
 const AutoSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -21,19 +22,23 @@ const AutoSlider = () => {
     <div className="slider-container">
       <div
         className="slider-div curved-div"
-        style={{
-          borderRight: "2px solid white",
-          borderTopRightRadius: "8px",
-          borderBottomRightRadius: "8px",
-        }}
+        // style={{
+        //   borderRight: "2px solid white",
+        //   borderTopRightRadius: "8px",
+        //   borderBottomRightRadius: "8px",
+        // }}
       >
+        {" "}
+        <span className="slider-text">
+          {texts[(currentIndex + images.length - 1) % images.length]}
+        </span>
         <img
           src={images[(currentIndex + images.length - 1) % images.length]}
           alt="Previous"
-          style={{
-            borderTopRightRadius: "8px",
-            borderBottomRightRadius: "8px",
-          }}
+          // style={{
+          //   borderTopRightRadius: "8px",
+          //   borderBottomRightRadius: "8px",
+          // }}
         />
       </div>
 
@@ -41,14 +46,18 @@ const AutoSlider = () => {
         className="slider-div center-div"
         style={{ backgroundImage: `url(${images[currentIndex]})` }}
       />
+      <span className="slider-text">{texts[currentIndex]}</span>
       <div
         className="slider-div curved-div"
-        style={{
-          borderLeft: "2px solid white",
-          borderTopLeftRadius: "8px",
-          borderBottomLeftRadius: "8px",
-        }}
+        // style={{
+        //   borderLeft: "2px solid white",
+        //   borderTopLeftRadius: "8px",
+        //   borderBottomLeftRadius: "8px",
+        // }}
       >
+        <span className="slider-text">
+          {texts[(currentIndex + 1) % images.length]}
+        </span>
         <img
           src={images[(currentIndex + 1) % images.length]}
           alt="Next"

@@ -16,7 +16,7 @@
     max-width: 500px;
     display: flex;
     flex-direction: column;
-    margin-right:20%;
+    margin-right: 20%;
 }
 
 .main-image {
@@ -31,14 +31,14 @@
     position: relative; */
     width: 35%;
     padding-top: 35px;
-    
+
 }
 
 .bg-heading {
     /* margin-top: 12rem; */
     color: #66389C;
     font-family: 'Poppins';
-    font-size: 35px;
+    font-size: 26px;
     /* font-style: normal; */
     font-weight: 700;
     /* line-height: normal; */
@@ -50,7 +50,7 @@
 .bg-sub_text {
     color: #000;
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 158%;
@@ -58,9 +58,9 @@
     height: 207px; */
     flex-shrink: 0;
     /* padding-top: 2rem; */
-    margin:0;
-    width:140%;
-    
+    margin: 0;
+    width: 140%;
+
 
 }
 

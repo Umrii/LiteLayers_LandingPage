@@ -55,8 +55,31 @@
   /* Push the center image forward */
   background-size: cover;
   background-position: center;
-  border: 8px solid white;
+  /* border: 8px solid white; */
   border-radius: 4%;
   z-index: 1;
   /* Ensure the center image is above the others */
 }
+
+.slider-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  z-index: 2;
+  color: #FFF;
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* 
+.slider-text {
+  color: #fff;
+  z-index: 10;
+  position: relative;
+} */

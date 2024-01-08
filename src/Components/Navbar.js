@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css"; // Importing the CSS file
-import image from "../Assets/logo.png";
+// import image from "../Assets/logo.png";
 import logos from "../Assets/LiteLayers.png";
 
 const Navbar = () => {
@@ -8,9 +8,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo-container">
         <img src={logos} alt="Lite Layer Logo" className="logo" />
-        <div class="logo-divider"></div>
-        <div class="text-top">LITE</div>
-        <div class="text-bottom">LAYER</div>
+        <div className="logo-divider"></div>
+        <div className="text-top">LITE</div>
+        <div className="text-bottom">LAYER</div>
       </div>
       <div className="buttons-container">
         <button className="browse-now">

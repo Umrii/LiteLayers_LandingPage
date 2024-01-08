@@ -1,105 +1,118 @@
 /* CSS File (YourComponent.css) */
 
 .tellus_container {
-    position: relative;
-    background-color: #342547;
-    height: 100%; /* Take full height of the viewport */
-    width: 100%; /* Take full width of the viewport */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .tellus_background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url('../Assets/tellus.PNG'); /* Update with actual path */
-    background-size: cover;
-    background-repeat: no-repeat;
-    mix-blend-mode: multiply;
-  }
-  
-  .tellus_content {
-    position: relative;
-    color: #fff; /* Choose a color that makes the text readable over your background */
-    z-index: 1; /* Ensure content is above the background image */
-    font-family: 'Poppins';
-    font-size: 40px;
-    position: relative;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    max-width: 90%; /* Responsive width */
-    margin: 0 auto; /* Center the content */
-  }
-  .tellus_content h1{
-    margin-bottom:7%;
-    font-size: 40px;
-    margin-top:10%;
-    font-family: 'Poppins';
-  }
-  .tellus_content p{
-    font-family: 'Poppins';
-    color: #FFF;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    width:60%;
-    left:20%;
-    position: relative;
-
-  }
- .testimonial{
-    margin-top:2%;
-    margin-bottom:15%;
-    margin-left:20%;
- }
- .footer_border {
-    border-top: 2px solid black;
-    border-radius: 40px 40px 0px 0px;
-    background: #FFF;
-    margin-top: -40px;
-    position: relative;
-    padding-top: 50px;
+  position: relative;
+  background-color: #342547;
+  height: 100%;
+  /* Take full height of the viewport */
+  width: 100%;
+  /* Take full width of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-  /* Responsive typography */
-  @media(min-width:320px) and (max-width:375px)
-  {
-    .testimonial{
-        margin-bottom:20%;
-      
-    }
+.tellus_background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('../Assets/tellus.PNG');
+  /* Update with actual path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+}
+
+.tellus_content {
+  position: relative;
+  color: #fff;
+  /* Choose a color that makes the text readable over your background */
+  z-index: 1;
+  /* Ensure content is above the background image */
+  font-family: 'Poppins';
+  /* font-size: 40px; */
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  max-width: 90%;
+  /* Responsive width */
+  margin: 0 auto;
+  /* Center the content */
+}
+
+.tellus_content h1 {
+  margin-bottom: 7%;
+  font-size: 26px;
+  margin-top: 10%;
+  font-family: 'Poppins';
+}
+
+.tellus_content p {
+  font-family: 'Poppins';
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 60%;
+  left: 20%;
+  position: relative;
+
+}
+
+.testimonial {
+  margin-top: 2%;
+  margin-bottom: 15%;
+  margin-left: 20%;
+}
+
+.footer_border {
+  border-top: 2px solid black;
+  border-radius: 40px 40px 0px 0px;
+  background: #FFF;
+  margin-top: -40px;
+  position: relative;
+  padding-top: 50px;
+}
+
+/* Responsive typography */
+@media(min-width:320px) and (max-width:375px) {
+  .testimonial {
+    margin-bottom: 20%;
+
   }
-  @media (min-width: 320px) {
-    .tellus_content h1 {
-      font-size: 24px;
-    }
-    .tellus_content p {
-      font-size: 14px;
-    }
+}
+
+@media (min-width: 320px) {
+  .tellus_content h1 {
+    /* font-size: 24px; */
   }
-  
-  @media (min-width: 768px) {
-    .tellus_content h1 {
-      font-size: 32px;
-    }
-    .tellus_content p {
-      font-size: 16px;
-    }
+
+  .tellus_content p {
+    /* font-size: 14px; */
   }
-  
-  @media (min-width: 1024px) {
-    .tellus_content h1 {
-      font-size: 40px;
-    }
-    .tellus_content p {
-      font-size: 18px;
-    }
+}
+
+@media (min-width: 768px) {
+  .tellus_content h1 {
+    /* font-size: 32px; */
   }
-  
+
+  .tellus_content p {
+    /* font-size: 16px; */
+  }
+}
+
+@media (min-width: 1024px) {
+  .tellus_content h1 {
+    /* font-size: 40px; */
+  }
+
+  .tellus_content p {
+    /* font-size: 18px; */
+  }
+}

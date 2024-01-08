@@ -1,34 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.39867e76.css",
-    "main.js": "/static/js/main.41841fc4.js",
+    "main.css": "/static/css/main.05779bba.css",
+    "main.js": "/static/js/main.ec3e1a29.js",
     "static/media/filters.PNG": "/static/media/filters.ee1d19964c57e3428e96.PNG",
     "static/media/slider4.png": "/static/media/slider4.92ee3c4fffe9ec7960ec.png",
     "static/media/diverse-arrow.PNG": "/static/media/diverse-arrow.260b26697ef6f14470e6.PNG",
     "static/media/discover2.PNG": "/static/media/discover2.6c3eba18e8bc52dc4c58.PNG",
-    "static/media/logo.png": "/static/media/logo.ef67dc8add843f35ba1b.png",
     "static/media/tellus.PNG": "/static/media/tellus.770b4947e729d09b2ef0.PNG",
-    "static/media/slide1.jpg": "/static/media/slide1.4dd2c8225b8d69067bbe.jpg",
+    "static/media/insta.png": "/static/media/insta.3143486060527cf72699.png",
+    "static/media/image-circle1.png": "/static/media/image-circle1.bcc8bed2b52e5f161998.png",
     "static/media/ctg5.png": "/static/media/ctg5.a4bfa87e241f0aa4d246.png",
     "static/media/ctg1.png": "/static/media/ctg1.a8f5de969664bb8a5a03.png",
-    "static/media/slide3.jpg": "/static/media/slide3.b896d0d161079274c81d.jpg",
-    "static/media/apple1.png": "/static/media/apple1.ac91bee6f2fdb972533f.png",
-    "static/media/about-image.png": "/static/media/about-image.311e6773ed4e83aa430b.png",
+    "static/media/twitter.png": "/static/media/twitter.67563a0f9348cdbe89fb.png",
+    "static/media/slide1.jpg": "/static/media/slide1.5f366709a38501d26297.jpg",
     "static/media/ctg2.png": "/static/media/ctg2.874e45f54ad0fb1a9cd7.png",
+    "static/media/slide3.jpg": "/static/media/slide3.c5c9095c8e742f160f49.jpg",
     "static/media/ctg3.png": "/static/media/ctg3.052ea22892696ab8d78f.png",
+    "static/media/apple1.png": "/static/media/apple1.6203f7d78e538af44823.png",
     "static/media/ctg4.png": "/static/media/ctg4.666986375930e972a8e1.png",
-    "static/media/image 12.svg": "/static/media/image 12.4c07c3012e5eed8eda0a74cb75d56359.svg",
-    "static/media/ios_button.png": "/static/media/ios_button.6eb9f1fae05a58d49461.png",
+    "static/media/googleplayimage.png": "/static/media/googleplayimage.9782f9d192ffd8b5b616.png",
     "static/media/feature4.png": "/static/media/feature4.cd311696a0d3d6948c78.png",
     "static/media/feature3.png": "/static/media/feature3.5fcfddaa6c59d62c69c9.png",
     "static/media/feature1.png": "/static/media/feature1.280c5c0a37d57818ccd6.png",
-    "static/media/fit.PNG": "/static/media/fit.be99190ef3f69787aed3.PNG",
     "index.html": "/index.html",
-    "main.39867e76.css.map": "/static/css/main.39867e76.css.map",
-    "main.41841fc4.js.map": "/static/js/main.41841fc4.js.map"
+    "main.05779bba.css.map": "/static/css/main.05779bba.css.map",
+    "main.ec3e1a29.js.map": "/static/js/main.ec3e1a29.js.map"
   },
   "entrypoints": [
-    "static/css/main.39867e76.css",
-    "static/js/main.41841fc4.js"
+    "static/css/main.05779bba.css",
+    "static/js/main.ec3e1a29.js"
   ]
 }
