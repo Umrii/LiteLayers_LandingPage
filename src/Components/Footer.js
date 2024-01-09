@@ -4,6 +4,11 @@ import lite from "../Assets/footer-logo.png";
 import facebook from "../Assets/facebook.png";
 import insta from "../Assets/insta.png";
 import twitter from "../Assets/twitter.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+
 // import social from "../Assets/footer-social-media.png";
 // import fit from "../Assets/fit.PNG";
 import footerlogos from "../Assets/LiteLayers.png";
@@ -45,21 +50,13 @@ const Footer = () => {
               <p className=" follow-us">Follow Us</p>
               <div className="footer-social-icons">
                 <a href="/">
-                  <img
-                    className="facebook"
-                    src={facebook}
-                    alt="social media icons"
-                  />
+                  <FontAwesomeIcon icon={faFacebookF} size="2x" />
                 </a>
                 <a href="/">
-                  <img
-                    className="twitter"
-                    src={twitter}
-                    alt="social media icons"
-                  />
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
                 </a>
                 <a href="/">
-                  <img className="insta" src={insta} alt="social media icons" />
+                  <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
               </div>
             </div>

@@ -15,7 +15,7 @@
   flex: 0 0 auto;
   width: 33.3333%;
   height: 200px;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 5s ease-in-out;
   position: relative;
   margin-left: 1%;
   margin-right: 1%;
@@ -30,13 +30,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transition: transform 5s ease-in-out, box-shadow 5s ease-in-out;
   backface-visibility: hidden;
   /* Hide the back side of the image when flipped */
 }
 
 .curved-div {
-  transform: rotateY(-30deg);
+  transform: rotateY(-40deg);
   /* Tilt the div to the right */
   box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
   /* Add shadow for depth */
@@ -44,14 +44,14 @@
 }
 
 .curved-div:last-child {
-  transform: rotateY(30deg);
+  transform: rotateY(40deg);
   /* Tilt the div to the left */
   box-shadow: 5px 0 15px rgba(0, 0, 0, 0.5);
   /* Add shadow for depth */
 }
 
 .center-div {
-  transform: translateZ(100px);
+  transform: translateZ(300px);
   /* Push the center image forward */
   background-size: cover;
   background-position: center;

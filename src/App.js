@@ -8,9 +8,11 @@ import Tell from "./Components/Tell_us";
 import Features from "./Components/Features";
 import Discover from "./Components/Discover";
 import Diverse from "./Components/Diverse";
+import Newslider from "./Components/NewSlider";
 function App() {
   return (
     <div>
+      {/* <Newslider /> */}
       <Navbar />
       <Discover />
 

@@ -7,6 +7,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    overflow: visible;
 }
 
 .diverse-text {
@@ -103,14 +104,14 @@
     display: flex;
     align-items: center;
     position: relative;
-    bottom: 25%;
-    left: 8%;
+    /* bottom: 25%;
+    left: 8%; */
 }
 
 .hd-image {
     width: 100px;
     height: auto;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 
 .hdtext {
@@ -126,44 +127,60 @@
 }
 
 .hdtext-content {
-    top: 6rem;
+    /* top: 6rem;
     position: relative;
-    right: 13rem;
+    right: 13rem; */
     color: #FFF;
-    font-family: Poppins;
-    font-size: 24px;
+    font-family: 'Poppins';
+    /* font-size: 24px; */
     font-style: normal;
     font-weight: 400;
+    width: 427px;
+    height: 66px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     line-height: normal;
     /* white-space: nowrap; */
+    /* margin-left: 25%; */
 }
+
 .diverse-outline-wrapper {
     position: relative;
     /* Add any necessary styles to ensure the wrapper fits the image properly */
-  }
-  .diverse-outline-wrapper::before,
+}
+
+.diverse-outline-wrapper::before,
 .diverse-outline-wrapper::after {
-  content: '';
-  position: absolute;
-  background-color: white; /* the color of the lines */
+    content: '';
+    position: absolute;
+    background-color: white;
+    /* the color of the lines */
 }
 
 /* Top and bottom lines */
 .diverse-outline-wrapper::before {
-  top: 0;
-  bottom: 0;
-  left: -10px; /* adjust as needed */
-  width: 2px; /* the thickness of the lines */
+    top: 0;
+    bottom: 0;
+    /* left: -10px; */
+    /* adjust as needed */
+    width: 2px;
+    /* the thickness of the lines */
 }
 
 /* Left and right lines */
 .diverse-outline-wrapper::after {
-  left: 0;
-  right: 0;
-  top: -10px; /* adjust as needed */
-  height: 2px; /* the thickness of the lines */
+    left: 0;
+    right: 0;
+    top: -10px;
+    /* adjust as needed */
+    height: 2px;
+    /* the thickness of the lines */
 }
 
+/* .left-div {
+    margin-left: 10%;
+} */
 
 @media(max-width: 450px) {
     .diverse-background {
@@ -235,19 +252,26 @@
         left: 8%;
         transition: all 0.3s ease-in-out;
     }
-    .diverse-outline{
+
+    .diverse-outline {
         transition: all 0.3s ease-in-out;
 
     }
 
     .hdtext-content {
         /* right: 9rem; */
-        top: 7rem;
+        /* top: 7rem; */
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .diverse-background {
         width: 100% !important;
+    }
+}
+
+@media(max-width:768px) {
+    .image-class {
+        width: 300px;
     }
 }

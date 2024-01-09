@@ -14,7 +14,6 @@ import diverseimg11 from "../Assets/slide3.jpg";
 import diverseimg12 from "../Assets/slide1.jpg";
 import diverseimg13 from "../Assets/slide2.jpg";
 
-
 const Diverse = () => {
   const [selectedImage, setSelectedImage] = useState(0); // Track the selected image index
 
@@ -24,11 +23,11 @@ const Diverse = () => {
 
   const imageTitles = [
     "Image HD",
-    "Change Background",
-    "Collage",
-    "Remove Background",
-    "Remove Background",
-    "Editor",
+    "Image HD",
+    "Image HD",
+    "Image HD",
+    "Image HD",
+    "Image HD",
   ];
 
   const diverseImages = [
@@ -39,9 +38,14 @@ const Diverse = () => {
     diverseimg5,
     diverseimg6,
   ];
-  const slideImages=[
-  diverseimg8, diverseimg9,diverseimg10 ,diverseimg11, diverseimg12,diverseimg13
-  ]
+  const slideImages = [
+    diverseimg10,
+    diverseimg10,
+    diverseimg10,
+    diverseimg10,
+    diverseimg10,
+    diverseimg10,
+  ];
 
   return (
     <div className="diverse-parent">
@@ -60,17 +64,43 @@ const Diverse = () => {
           </div>
         ))}
       </div>
+
       <div className="diverse-background">
-        <div className="hd-imagetext">
-          <img className="hd-image" alt="hd-icon" src={diverseImages[selectedImage]}/>
-          <p className="hdtext">{imageTitles[selectedImage]}</p>
-          <p className="hdtext-content">
-            Upscale images by increasing resolution.
-          </p>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="hd-imagetext">
+                      <img
+                        className="hd-image"
+                        alt="hd-icon"
+                        src={diverseImages[selectedImage]}
+                      />
+                      <p className="hdtext">{imageTitles[selectedImage]}</p>
+                    </div>
+                    <div className="col-md-8">
+                      <p className="hdtext-content ">
+                        Upscale images by increasing resolution.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              {/* <div className="diverse-outline-wrapper"> */}
+              <img
+                src={slideImages[selectedImage]}
+                alt="arrows"
+                className="diverse-outline image-class"
+              />
+              {/* </div> */}
+            </div>
+            {/* <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" /> */}
+          </div>
         </div>
-        <div className="diverse-outline-wrapper">
-        <img src={slideImages[selectedImage]} alt="arrows" className="diverse-outline" /></div>
-        {/* <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" /> */}
       </div>
     </div>
   );

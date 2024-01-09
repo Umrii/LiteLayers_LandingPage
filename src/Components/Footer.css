@@ -59,7 +59,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
 
 }
 
@@ -268,6 +268,20 @@
     right: 10%;
     background: lightgray -89px -1.617px / 183.178% 103.233% no-repeat;
     ;
+}
+
+.footer-social-icons a {
+    margin-right: 10px;
+}
+
+.footer-social-icons {
+    /* margin-left: 10%; */
+}
+
+@media(max-width:425px) {
+    .footer-social-icons {
+        margin-left: 0%;
+    }
 }
 
 @media (min-width: 320px) and (max-width:495px) {
