@@ -12,19 +12,17 @@ import Diverse from "./Components/Diverse";
 function App() {
   return (
     <div>
-      {/* <Newslider /> */}
-      {/* <Navbar />
-      <Discover /> */}
+      <Navbar />
+      <Discover />
 
-      {/* <Features /> */}
-      {/* <Diverse /> */}
-      <Categories />
+      <Features />
+      <Diverse />
 
-      {/* <Changebg />
+      <Changebg />
       <Categories />
       <About />
       <Tell />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

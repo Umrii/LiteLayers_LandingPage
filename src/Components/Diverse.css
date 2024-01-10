@@ -56,17 +56,26 @@
 
 .div-img-text p {
     align-items: center;
-    ;
+
     justify-content: center;
     width: 120px;
 }
 
+.image-container1 {
+    margin-bottom: 2rem;
+}
 
-.selected-img {
+.selected-img .image-container1 {
     border-radius: 19px;
     background: rgba(148, 146, 151, 0.17);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 15px;
+    padding: 10px;
+
+}
+
+.selected-img p {
+    user-select: none;
+    /* This property prevents text selection */
 }
 
 .diverse-background {
@@ -123,6 +132,7 @@
     font-weight: 500;
     line-height: normal;
     white-space: nowrap;
+    margin-left: 1rem;
 
 }
 
@@ -130,15 +140,17 @@
     /* top: 6rem;
     position: relative;
     right: 13rem; */
+    margin-top: 2rem;
+    margin-left: 1rem;
     color: #FFF;
     font-family: 'Poppins';
     /* font-size: 24px; */
     font-style: normal;
     font-weight: 400;
-    width: 427px;
+    /* width: 427px; */
     height: 66px;
     flex-shrink: 0;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     text-overflow: ellipsis;
     line-height: normal;
     /* white-space: nowrap; */
@@ -211,7 +223,7 @@
 
     .div-img-text {
         width: 26%;
-        margin-bottom: 5px;
+        margin-bottom: 35px;
         height: 100px;
     }
 
@@ -230,10 +242,14 @@
     .feature4 img {
         width: 120px;
     }
+
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
 
+    .hdtext {
+        white-space: initial;
+    }
 
     .diverse-change-bg {
         height: 39%;

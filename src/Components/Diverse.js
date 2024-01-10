@@ -23,11 +23,11 @@ const Diverse = () => {
 
   const imageTitles = [
     "Image HD",
-    "Image HD",
-    "Image HD",
-    "Image HD",
-    "Image HD",
-    "Image HD",
+    "Change Background",
+    "Collage",
+    "Remove Background",
+    "Remove Watermark",
+    "Editor",
   ];
 
   const diverseImages = [
@@ -39,7 +39,7 @@ const Diverse = () => {
     diverseimg6,
   ];
   const slideImages = [
-    diverseimg10,
+    diverseimg8,
     diverseimg10,
     diverseimg10,
     diverseimg10,
@@ -59,8 +59,11 @@ const Diverse = () => {
             key={index}
             onClick={() => handleImageClick(index)}
           >
-            <img src={image} alt={`img${index + 1}`} />
-            <p>{imageTitles[index]}</p>
+            <div className="image-container1">
+              <img src={image} alt={`img${index + 1}`} />
+            </div>
+            {/* Only the <img> tag will be affected by the active class */}
+            <p className="image-title">{imageTitles[index]}</p>
           </div>
         ))}
       </div>
