@@ -1,9 +1,9 @@
 import React from "react";
 // import logo from "../Assets/logo.png";
 import lite from "../Assets/footer-logo.png";
-import facebook from "../Assets/facebook.png";
-import insta from "../Assets/insta.png";
-import twitter from "../Assets/twitter.png";
+// import facebook from "../Assets/facebook.png";
+// import insta from "../Assets/insta.png";
+// import twitter from "../Assets/twitter.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";

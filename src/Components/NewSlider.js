@@ -4,11 +4,11 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "./NewSlider.css";
-import { FreeMode, Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
-import image1 from "../Assets/slide1.jpg";
+// import image1 from "../Assets/slide1.jpg";
 import image2 from "../Assets/slider4.png";
-import image3 from "../Assets/slide3.jpg";
+// import image3 from "../Assets/slide3.jpg";
 
 const texts = ["Aesthetics", "Blossom", "Cars and Vehicles", "Aesthetics"]; // Array of texts
 
@@ -17,7 +17,7 @@ export default function App() {
     <>
       <Swiper
         slidesPerView={3}
-        spaceBetween={10}
+        spaceBetween={20}
         slideActiveClass="slide-active"
         slideNextClass="slide-next"
         slidePrevClass="slide-prev"

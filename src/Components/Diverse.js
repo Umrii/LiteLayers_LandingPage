@@ -8,13 +8,33 @@ import diverseimg5 from "../Assets/diverse5.png";
 import diverseimg6 from "../Assets/diverse6.png";
 // import diverseimg7 from "../Assets/diverse-arrow.PNG";
 import diverseimg8 from "../Assets/diverse-bg.png";
-import diverseimg9 from "../Assets/slide1.jpg";
-import diverseimg10 from "../Assets/slide2.jpg";
-import diverseimg11 from "../Assets/slide3.jpg";
-import diverseimg12 from "../Assets/slide1.jpg";
-import diverseimg13 from "../Assets/slide2.jpg";
+// import diverseimg9 from "../Assets/slide1.jpg";
+// import diverseimg10 from "../Assets/slide2.jpg";
+// import diverseimg11 from "../Assets/slide3.jpg";
+// import diverseimg12 from "../Assets/slide1.jpg";
+// import diverseimg13 from "../Assets/slide2.jpg";
 
 const Diverse = () => {
+  // const images = document.querySelectorAll(".diverse-icon-row img");
+
+  // images.forEach((image, index) => {
+  //   image.addEventListener("click", () => {
+  //     const selectedDiv = document.querySelector(".selected-div-moving");
+  //     const parent = document.querySelector(".diverse-icon-row");
+
+  //     const imageRect = image.getBoundingClientRect();
+  //     const parentRect = parent.getBoundingClientRect();
+
+  //     const relativePosition = {
+  //       top: ((imageRect.top - parentRect.top) / parentRect.height) * 100,
+  //       left: ((imageRect.left - parentRect.left) / parentRect.width) * 100,
+  //     };
+
+  //     selectedDiv.style.top = `${relativePosition.top}%`;
+  //     selectedDiv.style.left = `${relativePosition.left}%`;
+  //   });
+  // });
+
   const [selectedImage, setSelectedImage] = useState(0); // Track the selected image index
 
   const handleImageClick = (index) => {
@@ -40,17 +60,18 @@ const Diverse = () => {
   ];
   const slideImages = [
     diverseimg8,
-    diverseimg10,
-    diverseimg10,
-    diverseimg10,
-    diverseimg10,
-    diverseimg10,
+    diverseimg8,
+    diverseimg8,
+    diverseimg8,
+    diverseimg8,
+    diverseimg8,
   ];
 
   return (
     <div className="diverse-parent">
       <p className="diverse-text">Diverse Content Catering to Every Taste</p>
       <div className="diverse-icon-row">
+        <div className="selected-div-moving"></div>
         {diverseImages.map((image, index) => (
           <div
             className={`div-img-text ${
@@ -58,11 +79,17 @@ const Diverse = () => {
             }`}
             key={index}
             onClick={() => handleImageClick(index)}
+            style={
+              selectedImage === index ? { height: "187px", width: "115px" } : {}
+            }
           >
-            <div className="image-container1">
+            <div
+              className={`image-container1 ${
+                selectedImage === index ? "active-img" : ""
+              }`}
+            >
               <img src={image} alt={`img${index + 1}`} />
             </div>
-            {/* Only the <img> tag will be affected by the active class */}
             <p className="image-title">{imageTitles[index]}</p>
           </div>
         ))}
@@ -93,13 +120,13 @@ const Diverse = () => {
               </div>
             </div>
             <div className="col-md-6">
-              {/* <div className="diverse-outline-wrapper"> */}
-              <img
-                src={slideImages[selectedImage]}
-                alt="arrows"
-                className="diverse-outline image-class"
-              />
-              {/* </div> */}
+              <div className="diverse-outline-wrapper">
+                <img
+                  src={slideImages[selectedImage]}
+                  alt="arrows"
+                  className="diverse-outline image-class"
+                />
+              </div>
             </div>
             {/* <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" /> */}
           </div>

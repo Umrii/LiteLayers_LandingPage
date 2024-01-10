@@ -20,6 +20,7 @@ function App() {
 
       <Changebg />
       <Categories />
+
       <About />
       <Tell />
       <Footer />

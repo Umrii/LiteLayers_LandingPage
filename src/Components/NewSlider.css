@@ -32,10 +32,11 @@
 .image-container img {
 
     border: 2px solid white;
+    border-radius: 20px;
 }
 
 .image-container :first-child {
-    border-left: none !important;
+    /* border-left: none !important; */
     /* border-bottom: none !important; */
 }
 
@@ -89,7 +90,7 @@
     z-index: 10;
     /* clip-path: polygon(0 0, 50% 0, 0% 30%, 0 0%); */
     /* clip-path: polygon(99% 1%, 98% 99%, 0% 47%); */
-    clip-path: polygon(50% 0%, 0 0, 0 100%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(30% 0%, 0 0, 0 100%, 30% 100%, 0% 75%, 0% 25%);
 }
 
 
@@ -105,7 +106,7 @@
     background: linear-gradient(to left, #342547 50%, transparent 50%);
     z-index: 10;
     /* clip-path: polygon(100% 0%, 52% 0%, 100% 30%, 100% 100%); */
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 100% 100%, 100% 0);
+    clip-path: polygon(80% 0%, 100% 25%, 100% 75%, 80% 100%, 100% 100%, 100% 0);
 }
 
 /* 

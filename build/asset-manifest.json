@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.05779bba.css",
-    "main.js": "/static/js/main.ec3e1a29.js",
+    "main.css": "/static/css/main.b6e51353.css",
+    "main.js": "/static/js/main.3c10df2a.js",
     "static/media/filters.PNG": "/static/media/filters.ee1d19964c57e3428e96.PNG",
     "static/media/slider4.png": "/static/media/slider4.92ee3c4fffe9ec7960ec.png",
-    "static/media/diverse-arrow.PNG": "/static/media/diverse-arrow.260b26697ef6f14470e6.PNG",
     "static/media/discover2.PNG": "/static/media/discover2.6c3eba18e8bc52dc4c58.PNG",
+    "static/media/diverse-bg.png": "/static/media/diverse-bg.f93647dfe8feab120353.png",
     "static/media/tellus.PNG": "/static/media/tellus.770b4947e729d09b2ef0.PNG",
-    "static/media/insta.png": "/static/media/insta.3143486060527cf72699.png",
     "static/media/image-circle1.png": "/static/media/image-circle1.bcc8bed2b52e5f161998.png",
     "static/media/ctg5.png": "/static/media/ctg5.a4bfa87e241f0aa4d246.png",
     "static/media/ctg1.png": "/static/media/ctg1.a8f5de969664bb8a5a03.png",
-    "static/media/twitter.png": "/static/media/twitter.67563a0f9348cdbe89fb.png",
-    "static/media/slide1.jpg": "/static/media/slide1.5f366709a38501d26297.jpg",
     "static/media/ctg2.png": "/static/media/ctg2.874e45f54ad0fb1a9cd7.png",
-    "static/media/slide3.jpg": "/static/media/slide3.c5c9095c8e742f160f49.jpg",
     "static/media/ctg3.png": "/static/media/ctg3.052ea22892696ab8d78f.png",
     "static/media/apple1.png": "/static/media/apple1.6203f7d78e538af44823.png",
     "static/media/ctg4.png": "/static/media/ctg4.666986375930e972a8e1.png",
@@ -23,11 +19,11 @@
     "static/media/feature3.png": "/static/media/feature3.5fcfddaa6c59d62c69c9.png",
     "static/media/feature1.png": "/static/media/feature1.280c5c0a37d57818ccd6.png",
     "index.html": "/index.html",
-    "main.05779bba.css.map": "/static/css/main.05779bba.css.map",
-    "main.ec3e1a29.js.map": "/static/js/main.ec3e1a29.js.map"
+    "main.b6e51353.css.map": "/static/css/main.b6e51353.css.map",
+    "main.3c10df2a.js.map": "/static/js/main.3c10df2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.05779bba.css",
-    "static/js/main.ec3e1a29.js"
+    "static/css/main.b6e51353.css",
+    "static/js/main.3c10df2a.js"
   ]
 }
