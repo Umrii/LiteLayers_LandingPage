@@ -27,6 +27,7 @@ import change3 from "../Assets/change3.png";
 import change4 from "../Assets/change4.png";
 import change5 from "../Assets/change5.png";
 import change6 from "../Assets/change6.png";
+import useWindowDimensions from "../utils/getWindowDimensions";
 const Diverse = () => {
   // const images = document.querySelectorAll(".diverse-icon-row img");
 
@@ -43,8 +44,8 @@ const Diverse = () => {
   //       left: ((imageRect.left - parentRect.left) / parentRect.width) * 100,
   //     };
 
-  //     selectedDiv.style.top = `${relativePosition.top}%`;
-  //     selectedDiv.style.left = `${relativePosition.left}%`;
+  //     // selectedDiv.style.top = `${relativePosition.top}%`;
+  //     selectedDiv.style.left = `${relativePosition.left - 2.2}%`;
   //   });
   // });
 
@@ -53,6 +54,9 @@ const Diverse = () => {
   const handleImageClick = (index) => {
     setSelectedImage(index); // Set the selected image index
   };
+
+  const { width } = useWindowDimensions();
+  console.log(width);
 
   const imageTitles = [
     "Image HD",
@@ -78,7 +82,20 @@ const Diverse = () => {
     <div className="diverse-parent">
       <p className="diverse-text">Diverse Content Catering to Every Taste</p>
       <div className="diverse-icon-row">
-        {/* <div className="selected-div-moving"></div> */}
+        <div
+          className="selected-div-moving"
+          style={
+            width >= 786
+              ? { left: `${(100 / 6) * selectedImage}%` }
+              : {
+                  left: `${
+                    (100 / 3) *
+                    (selectedImage > 2 ? selectedImage - 3 : selectedImage)
+                  }%`,
+                  top: `${selectedImage < 3 ? 0 : 50}%`,
+                }
+          }
+        ></div>
         {diverseImages.map((image, index) => (
           <div
             className={`div-img-text ${
@@ -86,13 +103,13 @@ const Diverse = () => {
             }`}
             key={index}
             onClick={() => handleImageClick(index)}
-            style={
-              selectedImage === index ? { height: "187px", width: "115px" } : {}
-            }
+            // style={
+            //   selectedImage === index ? { height: "187px", width: "115px" } : {}
+            // }
           >
             <div
               className={`image-container1 ${
-                selectedImage === index ? "active-img" : ""
+                selectedImage === index ? "" : ""
               }`}
             >
               <img
