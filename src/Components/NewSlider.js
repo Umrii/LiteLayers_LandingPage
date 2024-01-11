@@ -7,10 +7,19 @@ import "./NewSlider.css";
 import { Pagination, Autoplay } from "swiper/modules";
 
 // import image1 from "../Assets/slide1.jpg";
-import image2 from "../Assets/slider4.png";
+// import image2 from "../Assets/slider4.png";
+// import carimage from "../Assets/cars.png";
+// import flower from "../Assets/flower.jpg";
 // import image3 from "../Assets/slide3.jpg";
+import slideimg1 from "../Assets/Rectangle 115.png";
+import slideimg2 from "../Assets/Rectangle 116.png";
+import slideimg3 from "../Assets/Rectangle 117.png";
+import slideimg4 from "../Assets/Rectangle 118.png";
+import slideimg5 from "../Assets/Rectangle 119.png";
+import slideimg6 from "../Assets/Rectangle 120.png";
+import slideimg7 from "../Assets/Rectangle 121.png";
 
-const texts = ["Aesthetics", "Blossom", "Cars and Vehicles", "Aesthetics"]; // Array of texts
+const texts = ["Cars and Vehicles", "Aesthetics", "Blossom", "Aesthetics"]; // Array of texts
 
 export default function App() {
   return (
@@ -29,10 +38,18 @@ export default function App() {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        {[image2, image2, image2, image2].map((image, index) => (
+        {[
+          slideimg1,
+          slideimg2,
+          slideimg3,
+          slideimg4,
+          slideimg5,
+          slideimg6,
+          slideimg7,
+        ].map((image, index) => (
           <SwiperSlide key={0}>
             <div className="image-container">
-              <img src={image} alt="slider" />
+              <img src={image} alt="slider" className="slider-image" />
               <div className="centered-text">{texts[index]}</div>{" "}
               {/* Text Overlay */}
             </div>

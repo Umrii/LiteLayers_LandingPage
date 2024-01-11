@@ -75,7 +75,7 @@
 .swiper {
     display: flex;
     width: 100%;
-    background-color: lightgray;
+    /* background-color: lightgray; */
     height: 30%;
 
 }

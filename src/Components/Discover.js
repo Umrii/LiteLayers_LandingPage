@@ -1,8 +1,9 @@
 import React from "react";
 import "./Discover.css";
-import discover_img from "../Assets/discover2.PNG";
+// import discover_img from "../Assets/discover2.PNG";
 import iosimg from "../Assets/apple1.png";
 import googleImg from "../Assets/googleplayimage.png";
+import discover_new from "../Assets/discover-main-img.png";
 
 const Discover = () => {
   return (
@@ -39,7 +40,7 @@ const Discover = () => {
             <div className="banner-image-box col-md-6">
               <img
                 className="discover-img"
-                src={discover_img}
+                src={discover_new}
                 alt="discover-img"
               />
             </div>
