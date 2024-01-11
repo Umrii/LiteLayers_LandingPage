@@ -19,7 +19,15 @@ import slideimg5 from "../Assets/Rectangle 119.png";
 import slideimg6 from "../Assets/Rectangle 120.png";
 import slideimg7 from "../Assets/Rectangle 121.png";
 
-const texts = ["Cars and Vehicles", "Aesthetics", "Blossom", "Aesthetics"]; // Array of texts
+const texts = [
+  "Text",
+  "Aesthetics",
+  "Text",
+  "Blossom",
+  "Text",
+  "Text",
+  "Cars and Vehicles",
+]; // Array of texts
 
 export default function App() {
   return (
