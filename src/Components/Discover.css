@@ -21,6 +21,8 @@
             rgba(118, 91, 147, 0.70) 0%,
             rgba(31, 15, 48, 0.00) 100%);
     display: flex;
+    position: relative;
+    left: 4%;
 
 }
 
