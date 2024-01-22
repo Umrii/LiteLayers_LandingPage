@@ -1,175 +1,177 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #342547;
-  padding: 0 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  border-bottom: 5px solid transparent;
-  border-image: linear-gradient(to right,
-      rgba(102, 56, 156, 0.70),
-      rgba(102, 56, 156, 0.70));
-  border-image-slice: 1;
-  padding-bottom: 1%;
-
-
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  margin-left: 1rem;
-  margin-top: 1rem;
-}
-
-.logo {
-  /* width: 60px;
-  height: 100px; */
-  height: 70px;
-  margin-right: 2rem;
-  /* margin-top: 1rem; */
-}
-
-.logo-text {
-  font-family: 'Poppins', sans-serif;
-  /* Adjust if the font is different */
-  font-size: 48px;
-  /* Adjust based on the actual size in your design */
-  font-weight: 800;
-  /* Adjust based on the actual weight in your design */
-  color: #FFFFFF;
-  /* Assuming the text is white */
-  margin-left: 16px;
-  /* Adjust the margin to set the distance from the logo */
-
-}
-
-.buttons-container {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-}
-
-.text-top {
-  transform: translateY(-50%) translateX(-10%);
-  /* Moves the text up and to the left */
-  background: #FFF5F5;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  letter-spacing: 1.84px;
-  position: relative;
-  right: 40px;
-}
-
-.text-bottom {
-  transform: translateY(50%) translateX(-70%);
-  /* Moves the text down and to the right */
-  background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Poppins;
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-  letter-spacing: 1.84px;
-  opacity: 50%;
-  position: relative;
-  right: 40px;
-}
-
-.button {
-  border-radius: 10px;
-  padding: 10px 20px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.logo-divider {
-  width: 1px;
-  height: 60px;
-  background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
-  margin: 0 16px;
-  position: relative;
-  right: 40px;
-}
-
-.browse-now {
-  width: 137px;
-  height: 50px;
-  flex-shrink: 0;
-  background-color: #342547;
-  color: #FFF;
-  border: none;
-  white-space: nowrap;
-  font-family: 'Poppins';
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-
-}
-
-.grab-the-app {
-
-  color: #66389C;
-  display: flex;
-  width: 153px;
-  height: 48px;
-  white-space: nowrap;
-  font-size: 18px;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Poppins';
-  margin-right: 3rem;
-  gap: 10px;
-  outline: none;
-  border: none;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
-
-
-@media(max-width: 450px) {
-  .navbar {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 320px) and (max-width: 420px) {
-
-
-  .browse-now,
-  .grab-the-app {
+  .navbar-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #342547;
+    padding: 0 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(to right,
+        rgba(102, 56, 156, 0.70),
+        rgba(102, 56, 156, 0.70));
+    border-image-slice: 1;
+    padding-bottom: 1%;
+    position: sticky;
+    z-index: 1000;
     width: 100%;
-    /* Full width for buttons on smaller screens */
-    margin-bottom: 0px;
-    /* Add space between buttons */
-  }
-
-  .buttons-container {
-    justify-content: flex-start;
-  }
-
-  .grab-the-app {
-    margin-right: 0;
-    /* Remove right margin on the last button */
+    top: 0;
   }
 
   .logo-container {
-    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
   }
-}
+
+  .logo {
+    /* width: 60px;
+  height: 100px; */
+    height: 70px;
+    margin-right: 2rem;
+    /* margin-top: 1rem; */
+  }
+
+  cl .logo-text {
+    font-family: 'Poppins', sans-serif;
+    /* Adjust if the font is different */
+    font-size: 48px;
+    /* Adjust based on the actual size in your design */
+    font-weight: 800;
+    /* Adjust based on the actual weight in your design */
+    color: #FFFFFF;
+    /* Assuming the text is white */
+    margin-left: 16px;
+    /* Adjust the margin to set the distance from the logo */
+
+  }
+
+  .buttons-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .text-top {
+    transform: translateY(-50%) translateX(-10%);
+    /* Moves the text up and to the left */
+    background: #FFF5F5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.84px;
+    position: relative;
+    right: 40px;
+  }
+
+  .text-bottom {
+    transform: translateY(50%) translateX(-70%);
+    /* Moves the text down and to the right */
+    background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 1.84px;
+    opacity: 50%;
+    position: relative;
+    right: 30px;
+  }
+
+  .button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .logo-divider {
+    width: 1px;
+    height: 60px;
+    background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
+    margin: 0 16px;
+    position: relative;
+    right: 40px;
+  }
+
+  .browse-now {
+    width: 137px;
+    /* height: 50px; */
+    flex-shrink: 0;
+    background-color: #342547;
+    color: #FFF;
+    border: none;
+    white-space: nowrap;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+  }
+
+  .grab-the-app {
+
+    color: #66389C;
+    display: flex;
+    width: 130px;
+    height: 40px;
+    white-space: nowrap;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-right: 3rem;
+    gap: 10px;
+    outline: none;
+    border: none;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  }
+
+
+  @media(max-width: 450px) {
+    .navbar {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 320px) and (max-width: 420px) {
+
+
+    .browse-now,
+    .grab-the-app {
+      width: 100%;
+      /* Full width for buttons on smaller screens */
+      margin-bottom: 0px;
+      /* Add space between buttons */
+    }
+
+    .buttons-container {
+      justify-content: flex-start;
+    }
+
+    .grab-the-app {
+      margin-right: 0;
+      /* Remove right margin on the last button */
+    }
+
+    .logo-container {
+      margin-left: 0rem;
+    }
+  }

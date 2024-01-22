@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="about-parent">
       <div className="text">
-        <h1>About LiteLayer</h1>
+        <h1>About Litelayers</h1>
         <p>
           Litelayer transforms your smartphone with personalized wallpapers and
           more, allowing you to express your emotions, tastes, and interests in
@@ -41,7 +41,9 @@ const About = () => {
           </a>
         </div>
 
-        <span>or</span>
+        <span style={{ fontSize: "18px" }}>
+          <strong>OR</strong>
+        </span>
 
         <div className="mobile-div">
           <p className="scan-me">Scan Me</p>

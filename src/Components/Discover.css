@@ -3,7 +3,7 @@
     background-color: #342547;
     /* width: 100%; */
     /* height: 100vh; */
-    /* overflow: hidden; */
+    overflow-x: hidden;
     padding-top: 80px;
 
 }
@@ -22,7 +22,7 @@
             rgba(31, 15, 48, 0.00) 100%);
     display: flex;
     position: relative;
-    left: 4%;
+    left: 3.5%;
 
 }
 
@@ -60,7 +60,7 @@
 .discover-text {
     color: #FFF;
     font-family: 'Poppins';
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     margin-left: 5%;
@@ -125,10 +125,11 @@
     margin-left: 0%;
 }
 
+/* 
 .row {
     display: flex;
     align-items: center;
-}
+} */
 
 /* 
 @media(max-width: 450px) {
@@ -141,6 +142,10 @@
 
     }
 } */
+
+.banner-image-box.col-md-6 {
+    margin-right: -115px;
+}
 
 @media (max-width:375px) {
     .iosimage {
@@ -157,18 +162,12 @@
     .custom-background {
         flex-direction: column-reverse;
     }
-
-
 }
 
 @media (max-width:425px) {
-
     .discover-img {
-
         margin-top: 0px !important;
     }
-
-
 }
 
 @media (min-width:1900px) {

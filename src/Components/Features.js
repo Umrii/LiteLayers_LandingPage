@@ -7,40 +7,51 @@ import feature4img from "../Assets/feature4.png";
 
 const Features = () => {
   return (
-    <div className="features-parent">
-      <div class="feature1">
-        <img src={feature1img} alt="feature1" />
-        <p className="features-heading1">30 millions users</p>
-        <p className="features-content1">
-          LiteLayer has more than 436 million downloads
-        </p>
-      </div>
+    <div className="container">
+      {" "}
+      <div className="features-parent row">
+        <div class="feature1 col-md-3">
+          <img src={feature1img} alt="feature1" />
+          <div className="feature1-h1-div">
+            <h1 className="features-heading1">30 millions users</h1>
+          </div>
+          <p className="features-content1">
+            Litelayers has more than 436 million downloads
+          </p>
+        </div>
 
-      <div class="feature2">
-        <img src={feature2img} alt="feature2" />
-        <p className="features-heading2">Free & Premium Content</p>
-        <p className="features-content2">
-          A vast array of content awaits, featuring millions of captivating
-          pieces ready for your exploration.
-        </p>
-      </div>
+        <div class="feature2 col-md-3">
+          <img src={feature2img} alt="feature2" />
+          <div className="feature2-h1-div">
+            <h1 className="features-heading2">Free & Premium Content</h1>
+          </div>
+          <p className="features-content2">
+            Millions of free pieces of content and featured content available
+            now
+          </p>
+        </div>
 
-      <div class="feature3">
-        <img src={feature3img} alt="feature3" />
-        <p className="features-heading3">Top tier content creators</p>
-        <p className="features-content3">
-          From globally renowned artists to talented local creators, our
-          collection encompasses a diverse array of artistic brilliance.
-        </p>
-      </div>
+        <div class="feature3 col-md-3">
+          <img src={feature3img} alt="feature3" />
+          <div className="feature3-h1-div">
+            <h1 className="features-heading3">Top tier content creators</h1>
+          </div>
+          <p className="features-content3">
+            From some of the top musicians in the world to local artists, we
+            have it all on Litelayers
+          </p>
+        </div>
 
-      <div class="feature4">
-        <img src={feature4img} alt="feature4" />
-        <p className="features-heading4">NFTs made easy</p>
-        <p className="features-content4">
-          No cryptocurrency is required!Purchased NFTs can live on your device’s
-          home screen
-        </p>
+        <div class="feature4 col-md-3">
+          <img src={feature4img} alt="feature4" />
+          <div className="feature4-h1-div">
+            <h1 className="features-heading4">NFTs made easy</h1>
+          </div>
+          <p className="features-content4">
+            No cryptocurrency is required! Purchased NFTs can live on your
+            device’s home screen
+          </p>
+        </div>
       </div>
     </div>
   );

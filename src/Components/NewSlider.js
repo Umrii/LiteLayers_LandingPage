@@ -26,44 +26,46 @@ const texts = [
   "Blossom",
   "Text",
   "Text",
-  "Cars and Vehicles",
+  "Cars & Vehicles",
 ]; // Array of texts
 
 export default function App() {
   return (
     <>
-      <Swiper
-        slidesPerView={3}
-        spaceBetween={20}
-        slideActiveClass="slide-active"
-        slideNextClass="slide-next"
-        slidePrevClass="slide-prev"
-        loop={true}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
-        modules={[Pagination, Autoplay]}
-        className="mySwiper"
-      >
-        {[
-          slideimg1,
-          slideimg2,
-          slideimg3,
-          slideimg4,
-          slideimg5,
-          slideimg6,
-          slideimg7,
-        ].map((image, index) => (
-          <SwiperSlide key={0}>
-            <div className="image-container">
-              <img src={image} alt="slider" className="slider-image" />
-              <div className="centered-text">{texts[index]}</div>{" "}
-              {/* Text Overlay */}
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="images-slider-box">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={20}
+          slideActiveClass="slide-active"
+          slideNextClass="slide-next"
+          slidePrevClass="slide-prev"
+          loop={true}
+          autoplay={{
+            delay: 3000,
+            disableOnInteraction: false,
+          }}
+          modules={[Pagination, Autoplay]}
+          className="mySwiper"
+        >
+          {[
+            slideimg1,
+            slideimg2,
+            slideimg3,
+            slideimg4,
+            slideimg5,
+            slideimg6,
+            slideimg7,
+          ].map((image, index) => (
+            <SwiperSlide key={0}>
+              <div className="image-container">
+                <img src={image} alt="slider" className="slider-image" />
+                <div className="centered-text">{texts[index]}</div>{" "}
+                {/* Text Overlay */}
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </>
   );
 }

@@ -12,7 +12,7 @@ const Discover = () => {
         <div className="container">
           <div className="row">
             {" "}
-            <div class="discover-text-div col-md-6">
+            <div class="discover-text-div col-md-6 mt-5">
               <p className="discover-heading">Discover</p>
               <p className="discover-text">
                 LITELAYERS: Your go-to AI wallpaper app, offering endless

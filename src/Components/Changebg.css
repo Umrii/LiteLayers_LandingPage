@@ -17,55 +17,64 @@
     display: flex;
     flex-direction: column;
     margin-right: 20%;
+    margin-bottom: 10%;
 }
 
 .main-image {
     width: 100%;
 }
 
-.bg-content {
-    /* flex: 1 1 50%;
-    justify-content: center;
-    align-items: center;
+.sticky-btn {
+    width: 50%;
+    /* height: 10%; */
+    flex-shrink: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #342547;
+    color: #FFF;
+    border: none;
+    white-space: nowrap;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 20px;
+    line-height: normal;
+    position: absolute;
     display: flex;
-    position: relative; */
-    width: 35%;
-    padding-top: 35px;
+    /* Use flexbox */
+    align-items: center;
+    justify-content: center;
+    /* Align items vertically in the center */
 
 }
 
+.bg-content {
+    width: 35%;
+    position: relative;
+    padding-top: 35px;
+}
+
 .bg-heading {
-    /* margin-top: 12rem; */
     color: #66389C;
     font-family: 'Poppins';
     font-size: 26px;
-    /* font-style: normal; */
     font-weight: 700;
-    /* line-height: normal; */
-    /* width: 646px;
-    height: 110px; */
-    /* flex-shrink: 0; */
 }
 
 .bg-sub_text {
     color: #000;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 158%;
-    /* width: 646px;
-    height: 207px; */
+    margin-top: 5%;
     flex-shrink: 0;
-    /* padding-top: 2rem; */
     margin: 0;
-    /* width: 140%; */
-
-
 }
 
 .image-content {
-
     position: absolute;
     bottom: 0;
     right: 0;
@@ -76,8 +85,6 @@
     border-radius: 31px;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-
 }
 
 .bg-play {
@@ -93,8 +100,6 @@
     position: absolute;
     bottom: 15%;
     right: 0;
-
-
 }
 
 .our-app {
@@ -136,23 +141,32 @@
 }
 
 .download-button-div {
-    flex-basis: 100%;
+    bottom: 0;
+    right: 0;
     position: relative;
-    margin-bottom: 4rem;
-    ;
-
 }
 
 .download-button {
-    right: 5%;
-    position: absolute;
-    background-color: red;
-    width: 255px;
-    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     flex-shrink: 0;
-    border-radius: 33px;
-    background: #34283F;
+    border-radius: 100px;
+    background-color: #34283F;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 70px;
+    cursor: pointer;
+}
+
+.download-button p {
+    margin: 0;
+}
+
+.download-button img {
+    width: 55px;
+    margin-top: 6px;
+    margin-left: 10px;
 }
 
 .download-app {
@@ -162,24 +176,37 @@
     font-size: 19px;
     font-style: italic;
     font-weight: 600;
-    line-height: normal;
-    width: 176px;
-    height: 76px;
-    flex-shrink: 0;
     letter-spacing: 1.33px;
-    right: 0;
-    position: absolute;
-    top: 25%;
+}
+
+.sticky-btn p {
+    font-size: 18px;
+    width: 100%;
+    margin-top: 2%;
 }
 
 .qr2 {
-    width: 55px;
+    /* width: 55px;
     height: 42px;
     flex-shrink: 0;
     position: absolute;
     right: 70%;
-    top: 20%;
+    top: 20%; */
 }
+
+.magic-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Adjust background color and opacity as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media(max-width: 450px) {
     .bg-content {
@@ -256,4 +283,92 @@
     }
 
 
+}
+
+.hover-div {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 31px;
+    width: 296px;
+    height: 200px;
+    margin: 0 auto;
+    position: absolute;
+    top: -190px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    padding: 20px;
+}
+
+.qr-code-box:hover .hover-div {
+    display: flex;
+}
+
+.div-horizontal span {
+    font-weight: 600;
+}
+
+.qr-code-box {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+    padding: 20px 0 0 0;
+}
+
+.div-horizontal {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qr-div {
+    width: 30%;
+}
+
+.ios-android-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.qr-div h1,
+.ios-android-div h1 {
+
+    margin: 20px;
+
+}
+
+.hover-google {
+    width: 100px;
+}
+
+.hover-ios {
+    width: 100px;
+}
+
+.div-horizontal span {
+    /* top: 50px;
+    position: relative;
+    left: 10px; */
+}
+
+.bg-QR {
+    width: 100%;
+}
+
+.hover-div h1 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+    margin-top: -25px;
 }

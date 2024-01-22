@@ -141,7 +141,7 @@
 
 .diverse-background {
     height: 450px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     position: relative;
     align-items: center;
@@ -151,6 +151,11 @@
     background: rgba(58, 53, 63, 0.29);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     margin-bottom: 1.5rem;
+}
+
+img.diverse-outline.image-class {
+    width: 75%;
+
 }
 
 .diverse-change-bg {
@@ -203,7 +208,7 @@
     position: relative;
     right: 13rem; */
     margin-top: 2rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     color: #FFF;
     font-family: 'Poppins';
     /* font-size: 24px; */
@@ -212,6 +217,7 @@
     /* width: 427px; */
     /* height: 66px; */
     flex-shrink: 0;
+    font-size: 18px;
     /* white-space: nowrap; */
     text-overflow: ellipsis;
     line-height: normal;
@@ -221,31 +227,67 @@
 
 .diverse-outline-wrapper {
     position: relative;
-    /* Add any necessary styles to ensure the wrapper fits the image properly */
+
 }
 
-.diverse-outline-wrapper::before,
+.image-class::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    /* the color of the lines */
+}
+
+.image-class::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    /* the color of the lines */
+}
+
+.image-class::before {
+    top: -60px;
+    bottom: 124px;
+    left: -10px;
+    width: 4px;
+    border-radius: 2px solid;
+}
+
+.image-class ::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.diverse-outline-wrapper::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    /* the color of the lines */
+}
+
 .diverse-outline-wrapper::after {
     content: '';
     position: absolute;
-    background-color: white;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
     /* the color of the lines */
 }
 
 /* Top and bottom lines */
 .diverse-outline-wrapper::before {
     top: -60px;
-    bottom: 0;
+    bottom: 124px;
     left: -10px;
-    width: 2px
+    width: 4px;
+    border-radius: 2px solid;
 }
 
 /* Left and right lines */
 .diverse-outline-wrapper::after {
     left: -70px;
-    right: 0;
+    right: 320px;
     top: -10px;
-    height: 2px;
+    height: 4px;
+    border-radius: 2px solid;
 }
 
 /* .left-div {

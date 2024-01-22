@@ -1,11 +1,11 @@
 .features-parent {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     /* border: 2px solid #ccc; */
-    padding: 20px;
-    margin-right: 5%;
-    margin-left: 5%;
+    /* padding: 20px;*/
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -14,8 +14,19 @@
 .feature3,
 .feature4 {
     padding: 10px;
-    margin: 2rem;
+    /* margin: 2rem; */
     /* reduce this for low size screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* width: 22%; */
+}
+
+/* 
+.feature2 {
+    padding: 10px;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,9 +34,56 @@
     width: 22%;
 }
 
+.feature3 {
+    padding: 10px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 22%;
+}
 
+.feature4 {
+    padding: 10px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 22%;
+} */
+
+.features-heading1,
 .features-heading2,
 .features-heading3,
+.features-heading4 {
+    color: #66389C;
+    font-family: 'Poppins';
+    font-size: 20px;
+    height: 40px;
+    font-weight: 600;
+    /* margin-bottom: 4rem; */
+
+}
+
+/* 
+.features-heading2 {
+    color: #66389C;
+    font-family: Poppins;
+    font-size: 20px;
+    height: 40px;
+    font-weight: 600;
+}
+
+.features-heading3 {
+    color: #66389C;
+    font-family: Poppins;
+    font-size: 20px;
+    height: 40px;
+    font-weight: 600;
+}
+
 .features-heading4 {
     color: #66389C;
     font-family: Poppins;
@@ -33,34 +91,70 @@
     height: 40px;
     font-weight: 600;
     margin-bottom: 1.5rem;
-}
-
-.features-heading1 {
-    color: #66389C;
-    font-family: Poppins;
-    font-size: 20px;
-    height: 40px;
-    font-weight: 600;
-    margin-bottom: 4rem;
-
-}
+} */
 
 .features-content1,
 .features-content2,
 .features-content3,
 .features-content4 {
+    /* color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    width: 299px;
+    height: 133px; */
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    padding: 0px;
+}
+
+/* .features-content2 {
     color: #000;
     text-align: center;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-    /* remove these for low size screens */
+    width: 299px;
+    height: 133px;
+}
+
+.features-content3 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    width: 299px;
+    height: 133px;
+}
+
+.features-content4 {
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
     width: 299px;
     height: 133px;
 
+} */
+
+.feature1-h1-div,
+.feature2-h1-div,
+.feature3-h1-div,
+.feature4-h1-div {
+
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
 }
 
-.features-content2 {}
+/* 
+.feature3-h1-div {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+} */
 
 @media (max-width: 1024px) {
     .features-parent {
@@ -88,4 +182,11 @@
         line-height: 145%;
 
     }
+}
+
+.feature1 img,
+.feature2 img,
+.feature3 img,
+.feature4 img {
+    height: 140px;
 }

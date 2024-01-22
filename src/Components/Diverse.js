@@ -61,20 +61,20 @@ const Diverse = () => {
   const imageTitles = [
     "Image HD",
     "Change Background",
-    "Collage",
     "Remove Background",
     "Remove Watermark",
+    "Collage",
     "Editor",
   ];
 
-  const diverseImages = [icon1, icon2, icon3, icon4, icon5, icon6];
+  const diverseImages = [icon1, icon2, icon4, icon5, icon3, icon6];
   const slideImages = [change1, change2, change3, change4, change5, change6];
   const paraText = [
-    "  Upscale images by increasing resolution",
+    " Upscale images by increasing resolution",
     "Transform the scene with a new backdrop by effortlessly changing the background",
     "Bring memories to life in a vibrant tapestry of moments with a customize collage that captures the journey",
-    "Bring memories to life in a vibrant tapestry of moments with a customize collage that captures the journey",
     "Unveil the true beauty of your visuals by seamlessly removing watermarks,ensuring a pristine and polished presentation",
+    "Bring memories to life in a vibrant tapestry of moments with a customize collage that captures the journey",
     "Empower your creativity with a versatile editor, where every stroke transforms ideas into stunning visual narratives",
   ];
 

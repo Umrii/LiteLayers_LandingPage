@@ -1,0 +1,53 @@
+/* .hover-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 20px;
+
+}
+
+.div-horizontal {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.qr-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ios-android-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 10%;
+}
+
+.qr-div h1,
+.ios-android-div h1 {
+
+    margin: 20px;
+
+}
+
+.hover-google {
+    width: 100px;
+}
+
+.hover-ios {
+    width: 100px;
+}
+
+.div-horizontal span {
+    top: 50px;
+    position: relative;
+    left: 10px;
+} */
