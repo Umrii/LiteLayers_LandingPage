@@ -6,9 +6,9 @@ import lite from "../Assets/footer-logo.png";
 // import twitter from "../Assets/twitter.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import insta from "../Assets/insta16.png";
+// import insta from "../Assets/insta16.png";
 
 // import social from "../Assets/footer-social-media.png";
 // import fit from "../Assets/fit.PNG";

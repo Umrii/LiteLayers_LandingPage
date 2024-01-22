@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d9e92753.css",
-    "main.js": "/static/js/main.db7cdc02.js",
+    "main.css": "/static/css/main.226313d4.css",
+    "main.js": "/static/js/main.d189be9e.js",
     "static/media/discover-main-img.png": "/static/media/discover-main-img.83ddfdcb8e272b18bb95.png",
     "static/media/filters.PNG": "/static/media/filters.ee1d19964c57e3428e96.PNG",
     "static/media/Rectangle 121.png": "/static/media/Rectangle 121.d526bca7ac357f88e433.png",
@@ -18,6 +18,7 @@
     "static/media/change5.png": "/static/media/change5.a2669a1cd7c17e0b591a.png",
     "static/media/Rectangle 119.png": "/static/media/Rectangle 119.8925888f8927e4cc9f24.png",
     "static/media/change4.png": "/static/media/change4.6f622d018096153c8713.png",
+    "static/media/new_black_logo.png": "/static/media/new_black_logo.e85d2745e543365f7881.png",
     "static/media/image-circle1.png": "/static/media/image-circle1.bcc8bed2b52e5f161998.png",
     "static/media/ctg5.png": "/static/media/ctg5.a4bfa87e241f0aa4d246.png",
     "static/media/ctg1.png": "/static/media/ctg1.a8f5de969664bb8a5a03.png",
@@ -25,16 +26,18 @@
     "static/media/ctg3.png": "/static/media/ctg3.052ea22892696ab8d78f.png",
     "static/media/apple1.png": "/static/media/apple1.6203f7d78e538af44823.png",
     "static/media/ctg4.png": "/static/media/ctg4.666986375930e972a8e1.png",
+    "static/media/Changebg-QR-Download.png": "/static/media/Changebg-QR-Download.891e472df376cc71a426.png",
     "static/media/googleplayimage.png": "/static/media/googleplayimage.9782f9d192ffd8b5b616.png",
+    "static/media/qr2.PNG": "/static/media/qr2.c3ea886b018440496075.PNG",
     "static/media/feature4.png": "/static/media/feature4.cd311696a0d3d6948c78.png",
     "static/media/feature3.png": "/static/media/feature3.5fcfddaa6c59d62c69c9.png",
     "static/media/feature1.png": "/static/media/feature1.280c5c0a37d57818ccd6.png",
     "index.html": "/index.html",
-    "main.d9e92753.css.map": "/static/css/main.d9e92753.css.map",
-    "main.db7cdc02.js.map": "/static/js/main.db7cdc02.js.map"
+    "main.226313d4.css.map": "/static/css/main.226313d4.css.map",
+    "main.d189be9e.js.map": "/static/js/main.d189be9e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9e92753.css",
-    "static/js/main.db7cdc02.js"
+    "static/css/main.226313d4.css",
+    "static/js/main.d189be9e.js"
   ]
 }

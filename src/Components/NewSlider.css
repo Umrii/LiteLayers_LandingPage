@@ -6,14 +6,6 @@
 
 }
 
-.images-slider-box .swiper .swiper-slide:nth-child(3) .image-container {
-    /* border-right: none !important; */
-}
-
-.images-slider-box .swiper .swiper-slide:nth-child(1) .image-container {
-    /* border-left: none !important; */
-}
-
 .images-slider-box .swiper .swiper-slide {
     text-align: center;
     font-size: 18px;
