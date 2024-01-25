@@ -35,7 +35,7 @@ export default function App() {
       <div className="images-slider-box">
         <Swiper
           slidesPerView={3}
-          spaceBetween={20}
+          spaceBetween={30}
           slideActiveClass="slide-active"
           slideNextClass="slide-next"
           slidePrevClass="slide-prev"
@@ -59,7 +59,7 @@ export default function App() {
             <SwiperSlide key={0}>
               <div className="image-container">
                 <img src={image} alt="slider" className="slider-image" />
-                <div className="centered-text">{texts[index]}</div>{" "}
+                <div className="centered-text1">{texts[index]}</div>{" "}
                 {/* Text Overlay */}
               </div>
             </SwiperSlide>

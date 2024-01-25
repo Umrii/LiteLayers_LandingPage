@@ -154,6 +154,7 @@ const Diverse = () => {
                   alt="arrows"
                   className="diverse-outline image-class"
                 />
+                {/* <div className="diverse-outline-wrapper1"></div> */}
               </div>
             </div>
             {/* <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" /> */}

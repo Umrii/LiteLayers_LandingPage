@@ -18,12 +18,13 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <div className="footer_border ">
-        <footer>
-          <div className="container">
+      <div className="footer_border container-fluid ">
+        <footer className="container-fluid">
+          {" "}
+          <div className="container-fluid">
             {" "}
             <div className="foot-parent row">
-              <div className="child_1 col-md-5">
+              <div className="child_1 col-md-4">
                 {" "}
                 <img className="footer-logo" src={footerlogos} alt="logo" />
                 <img className="lite-logo" src={lite} alt="logo" />
@@ -50,7 +51,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="child_3 col-md-2">
+              <div className="child_3 col-md-3">
                 {" "}
                 <p className=" footer-headings">
                   <strong>Our Company</strong>

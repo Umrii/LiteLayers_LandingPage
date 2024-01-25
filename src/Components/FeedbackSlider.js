@@ -7,19 +7,19 @@ import { Pagination, Autoplay } from "swiper/modules";
 const texts = [
   [
     "LiteLayer is my favorite app right now. It has so many awesome wallpapers, ringtones and notifications For your phone.",
-    "Umair Hashmi",
+    '" Umair Hashmi',
   ],
   [
     "Aesthetics is my favorite app right now. It has so many awesome wallpapers, ringtones and notifications For your phone.",
-    " Anas",
+    '" Anas',
   ],
   [
     "Blossom is my favorite app right now. It has so many awesome wallpapers, ringtones and notifications For your phone.",
-    "Usman",
+    '" Usman',
   ],
   [
     "Cars & Vehicles is my favorite app right now. It has so many awesome wallpapers, ringtones and notifications For your phone.",
-    "Max",
+    '" Max',
   ],
 ];
 
@@ -49,8 +49,12 @@ export default function App() {
           <SwiperSlide key={index}>
             <div className="swiper-slide-one">
               <div className="centered-text-slider-text">
-                <p>{object.appName}</p>
-                <p>{object.description}</p>
+                <p>
+                  <strong>{object.appName}</strong>
+                </p>
+                <p>
+                  <strong>{object.description}</strong>
+                </p>
               </div>
             </div>
           </SwiperSlide>

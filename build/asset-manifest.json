@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.226313d4.css",
-    "main.js": "/static/js/main.d189be9e.js",
+    "main.css": "/static/css/main.a72273c2.css",
+    "main.js": "/static/js/main.340b50ad.js",
     "static/media/discover-main-img.png": "/static/media/discover-main-img.83ddfdcb8e272b18bb95.png",
     "static/media/filters.PNG": "/static/media/filters.ee1d19964c57e3428e96.PNG",
     "static/media/Rectangle 121.png": "/static/media/Rectangle 121.d526bca7ac357f88e433.png",
@@ -24,6 +24,7 @@
     "static/media/ctg1.png": "/static/media/ctg1.a8f5de969664bb8a5a03.png",
     "static/media/ctg2.png": "/static/media/ctg2.874e45f54ad0fb1a9cd7.png",
     "static/media/ctg3.png": "/static/media/ctg3.052ea22892696ab8d78f.png",
+    "static/media/ctg6.png": "/static/media/ctg6.e73dc06e4173d322f5ff.png",
     "static/media/apple1.png": "/static/media/apple1.6203f7d78e538af44823.png",
     "static/media/ctg4.png": "/static/media/ctg4.666986375930e972a8e1.png",
     "static/media/Changebg-QR-Download.png": "/static/media/Changebg-QR-Download.891e472df376cc71a426.png",
@@ -33,11 +34,11 @@
     "static/media/feature3.png": "/static/media/feature3.5fcfddaa6c59d62c69c9.png",
     "static/media/feature1.png": "/static/media/feature1.280c5c0a37d57818ccd6.png",
     "index.html": "/index.html",
-    "main.226313d4.css.map": "/static/css/main.226313d4.css.map",
-    "main.d189be9e.js.map": "/static/js/main.d189be9e.js.map"
+    "main.a72273c2.css.map": "/static/css/main.a72273c2.css.map",
+    "main.340b50ad.js.map": "/static/js/main.340b50ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.226313d4.css",
-    "static/js/main.d189be9e.js"
+    "static/css/main.a72273c2.css",
+    "static/js/main.340b50ad.js"
   ]
 }

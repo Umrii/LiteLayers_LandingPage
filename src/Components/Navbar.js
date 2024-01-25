@@ -2,11 +2,12 @@ import React from "react";
 import "./Navbar.css"; // Importing the CSS file
 // import image from "../Assets/logo.png";
 import logos from "../Assets/LiteLayers.png";
+import btnQR from "../Assets/button-qr.png";
 
 const Navbar = () => {
   return (
     <div className="navbar-main">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <nav className="navbar">
             <div className="logo-container">
@@ -17,7 +18,12 @@ const Navbar = () => {
             </div>
             <div className="buttons-container">
               <button className="browse-now">Browse Now</button>
-              <button className="button grab-the-app">Grab the app</button>
+              <a href="#download">
+                <button className="button grab-the-app">
+                  <img className="btnQR" src={btnQR} alt="qrcode" />
+                  Download App
+                </button>
+              </a>
             </div>
           </nav>
         </div>

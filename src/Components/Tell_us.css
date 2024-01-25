@@ -27,12 +27,11 @@
   /* z-index: 9; */
 }
 
+
 .tellus_content {
   position: relative;
   color: #fff;
-  /* Choose a color that makes the text readable over your background */
   /* z-index: 1; */
-  /* Ensure content is above the background image */
   font-family: 'Poppins';
   /* font-size: 40px; */
   position: relative;
@@ -40,14 +39,14 @@
   font-weight: 700;
   line-height: normal;
   max-width: 90%;
-  /* Responsive width */
   margin: 0 auto;
-  /* Center the content */
+  margin-top: 3%;
+  margin-bottom: 4%;
 }
 
 .tellus_content h1 {
   margin-bottom: 50px;
-  font-size: 40px;
+  font-size: 26px;
   margin-top: 10%;
   font-family: 'Poppins';
 }
