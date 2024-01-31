@@ -12,7 +12,7 @@
     /* position: absolute; */
     /* top: 20%;
     right: 0; */
-    width: 93%;
+    width: 99%;
     height: 100%;
     margin: 0 auto;
     border-top-left-radius: 40px;
@@ -40,6 +40,11 @@
 
 .discover-text-div {
     margin-bottom: 10%;
+    /* position: absolute; */
+}
+
+.text-box-position {
+    position: absolute;
 }
 
 .discover-heading {
@@ -51,7 +56,7 @@
     color: #FFF;
     /* margin-bottom: 20%; */
 
-    margin-left: 5%;
+    /* margin-left: 5%; */
     letter-spacing: 12px;
 
 
@@ -63,7 +68,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    margin-left: 5%;
+    /* margin-left: 5%; */
     flex-wrap: wrap;
     line-height: 200%;
     letter-spacing: 1.68px;
@@ -75,36 +80,36 @@
     color: #FFF;
     font-family: 'Poppins';
     font-size: 16px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
-    margin-left: 5%;
-    flex-wrap: wrap;
-    line-height: 170%;
+    margin-bottom: 4px;
+    /* margin-left: 5%; */
+    /* flex-wrap: wrap; */
+    /* line-height: 170%; */
     /* margin-top: 5%;
     margin-bottom: 5%; */
-
 }
 
 .discover-download {
     color: #FFF;
     font-family: 'Poppins';
     font-size: 16px;
-    font-style: normal;
+    /* font-style: normal; */
     font-weight: 700;
-    margin-left: 5%;
-    flex-wrap: wrap;
+    /* margin-left: 5%; */
+    /* flex-wrap: wrap;
     line-height: 170%;
     top: -5%;
-    position: relative;
+    position: relative; */
     /* margin-bottom: 5%; */
 
 }
 
 .iosimage-div {
     display: flex;
-    position: relative;
-    top: -4%;
-    left: 5%;
+    /* position: relative;
+    top: -4%; */
+    /* left: 5%; */
 }
 
 .googleimage {
@@ -177,5 +182,11 @@
 
     .iosimage-div {
         bottom: 0%;
+    }
+}
+
+@media(max-width: 700px) {
+    .banner-image-box.col-md-6 {
+        margin-right: 0 !important;
     }
 }

@@ -18,13 +18,16 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div>
-      <div className="footer_border container-fluid ">
+      <div className="footer_border">
         <footer className="container-fluid">
           {" "}
-          <div className="container-fluid">
+          <div className="container-fluid p-0">
             {" "}
             <div className="foot-parent row">
-              <div className="child_1 col-md-4">
+              <div
+                className="col-lg-4 col-md-4 col-sm-6"
+                style={{ paddingLeft: "20px" }}
+              >
                 {" "}
                 <img className="footer-logo" src={footerlogos} alt="logo" />
                 <img className="lite-logo" src={lite} alt="logo" />
@@ -35,7 +38,7 @@ const Footer = () => {
                   </strong>
                 </p>{" "}
               </div>
-              <div className="child_2 col-md-3">
+              <div className="col-lg-3 col-md-3 col-sm-6 space-left-section">
                 <p className=" footer-headings">
                   <strong>Content</strong>
                 </p>
@@ -51,7 +54,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="child_3 col-md-3">
+              <div className="col-lg-3 col-md-3 col-sm-6  space-left-section-half">
                 {" "}
                 <p className=" footer-headings">
                   <strong>Our Company</strong>
@@ -68,7 +71,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="child_4 col-md-2">
+              <div className="col-lg-2 col-md-2 col-sm-6">
                 <p className=" follow-us">
                   <strong>Follow Us</strong>
                 </p>

@@ -7,7 +7,7 @@ import apple from "../Assets/apple1.png";
 
 const About = () => {
   return (
-    <div className="about-parent container" id="download">
+    <div className="about-parent container-fluid" id="download">
       <div className="row">
         <div className="col-md-6">
           <div className="text">

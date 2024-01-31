@@ -16,7 +16,7 @@
     /* max-width: 500px; */
     /* display: flex;
     flex-direction: column; */
-    /* margin-right: 20%; */
+    margin-left: 20px;
     margin-top: 10%;
 }
 
@@ -150,7 +150,8 @@
 .download-button {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-top: 20px;
     flex-shrink: 0;
     border-radius: 100px;
     background-color: #34283F;
@@ -339,4 +340,16 @@
     color: #000000;
     margin: 0;
     margin-top: -25px;
+}
+
+@media(max-width:768px) {
+    .qr-code-box {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        transition: all 0.3s ease-in-out;
+        padding: 20px 0 0 0;
+        margin-right: 0px;
+        bottom: 50px;
+    }
 }

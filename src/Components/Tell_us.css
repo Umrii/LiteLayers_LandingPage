@@ -76,6 +76,7 @@
   margin-top: -40px;
   position: relative;
   padding-top: 50px;
+  overflow: hidden;
 }
 
 /* Responsive typography */

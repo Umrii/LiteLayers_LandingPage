@@ -161,7 +161,7 @@
     .browse-now,
     .grab-the-app {
       width: 100%;
-      /* Full width for buttons on smaller screens */
+
       margin-bottom: 0px;
       /* Add space between buttons */
     }
@@ -172,7 +172,7 @@
 
     .grab-the-app {
       margin-right: 0;
-      /* Remove right margin on the last button */
+
     }
 
     .logo-container {

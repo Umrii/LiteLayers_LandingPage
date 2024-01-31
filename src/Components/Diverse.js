@@ -59,7 +59,7 @@ const Diverse = () => {
   console.log(width);
 
   const imageTitles = [
-    "Image HD",
+    "AI Enhancer",
     "Change Background",
     "Remove Background",
     "Remove Watermark",

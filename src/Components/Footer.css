@@ -44,7 +44,7 @@
     flex-shrink: 0;
     color: #66389C;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -57,7 +57,7 @@
     flex-shrink: 0;
     color: #66389C;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -71,7 +71,7 @@
     flex-shrink: 0;
     color: #000;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -86,7 +86,7 @@
     flex-shrink: 0;
     color: #000;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -208,6 +208,14 @@
 
 }
 
+.space-left-section {
+    padding-left: 100px;
+}
+
+.space-left-section-half {
+    padding-left: 50px;
+}
+
 .child_2,
 .child_3 {
     /* width: auto;
@@ -258,7 +266,7 @@
     margin-top: 1rem;
     color: #000;
     font-family: 'Poppins';
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -293,7 +301,7 @@
 
 .footer-social-icons {
     /* margin-left: 10%; */
-    margin-top: 20%;
+    margin-top: 20px;
 }
 
 @media(max-width:425px) {
@@ -404,5 +412,29 @@
     .same-line li {
         padding-left: 1rem;
 
+    }
+}
+
+@media(max-width: 770px) {
+    .space-left-section {
+        padding-left: 0;
+    }
+
+    .logo-text,
+    .items li {
+        font-size: 16px;
+    }
+
+    .footer-social-icons a svg {
+        font-size: 21px;
+    }
+
+    .footer-social-icons {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .space-left-section-half {
+        padding-left: 0px;
     }
 }
