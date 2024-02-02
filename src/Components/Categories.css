@@ -1,7 +1,5 @@
 .ctg-parent {
-    /* width: 100vw; */
-    /* height: 50rem; */
-    /* when swiper add auto */
+
     padding: 50px 0;
     display: flex;
     position: relative;
@@ -9,18 +7,17 @@
     justify-content: center;
     align-items: center;
     background-color: #342547;
-    /* overflow: auto;
-    overflow: auto; */
+
 }
 
 .ctg-text {
     top: 10%;
     margin-bottom: 30px;
-    /* position: absolute; */
+
     font-family: 'Poppins';
     font-size: 35px;
     font-style: normal;
-    /* position:relative; */
+
     font-weight: 700;
     line-height: normal;
     letter-spacing: 3.43px;
@@ -90,7 +87,7 @@
 .swiper {
     display: flex;
     width: 100%;
-    /* background-color: lightgray; */
+
     height: 30%;
 
 }
@@ -103,15 +100,9 @@
 
     }
 
-    /* .img-row img {
-        margin-right: 0;
-        margin-bottom: 10px;
-        width: 50%;
-    } */
 
     .ctg-parent {
-        /* height: inherit !important;
-        overflow: inherit !important; */
+
         padding: 50px 0;
     }
 
@@ -123,14 +114,4 @@
     .ctg-text {
         font-size: 36px;
     }
-
-    /* .ctg-img-text {
-        position: absolute;
-        left: 50%;
-        bottom: 32px;
-        transform: translate(-50%, 50%);
-        color: white;
-        font-family: 'Poppins';
-        font-size: 9px;
-    } */
 }

@@ -1,19 +1,13 @@
 import React from "react";
-// import logo from "../Assets/logo.png";
 import lite from "../Assets/footer-logo.png";
-// import facebook from "../Assets/facebook.png";
-// import insta from "../Assets/insta.png";
-// import twitter from "../Assets/twitter.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-// import insta from "../Assets/insta16.png";
 
-// import social from "../Assets/footer-social-media.png";
-// import fit from "../Assets/fit.PNG";
 import footerlogos from "../Assets/new_black_logo.png";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -87,10 +81,6 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faTwitter} size="2x" />
                   </a>
                   <a href="/">
-                    {/* <div className="insta">
-                    <img src={insta} alt="insta" />
-                  </div> */}
-
                     <FontAwesomeIcon
                       icon={faInstagram}
                       size="2x"
@@ -107,7 +97,11 @@ const Footer = () => {
             </div>
             <div className="last_child2">
               <ul class="same-line">
-                <li>Privacy Policy</li>
+                <li>
+                  <Link to="/privacy-policy" className="text-decoration-none">
+                    Privacy Policy
+                  </Link>
+                </li>
                 <li>Copyrights</li>
                 <li>Terms and Conditions</li>
               </ul>

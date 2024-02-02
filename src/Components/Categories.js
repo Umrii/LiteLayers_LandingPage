@@ -6,7 +6,7 @@ import ctg3 from "../Assets/ctg3.png";
 import ctg4 from "../Assets/ctg4.png";
 import ctg5 from "../Assets/ctg5.png";
 import ctg6 from "../Assets/ctg6.png";
-// import Slider from './Slider';
+
 import Newslider from "./NewSlider";
 
 const Categories = () => {

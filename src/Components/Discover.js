@@ -1,6 +1,5 @@
 import React from "react";
 import "./Discover.css";
-// import discover_img from "../Assets/discover2.PNG";
 import iosimg from "../Assets/apple1.png";
 import googleImg from "../Assets/googleplayimage.png";
 import discover_new from "../Assets/discover-main-img.png";

@@ -1,19 +1,5 @@
 import React, { useState } from "react";
 import "./Diverse.css";
-// import diverseimg1 from "../Assets/diverse1.png";
-// import diverseimg2 from "../Assets/diverse2.png";
-// import diverseimg3 from "../Assets/diverse3.png";
-// import diverseimg4 from "../Assets/diverse4.png";
-// import diverseimg5 from "../Assets/diverse5.png";
-// import diverseimg6 from "../Assets/diverse6.png";
-// import diverseimg7 from "../Assets/diverse-arrow.PNG";
-// import diverseimg8 from "../Assets/diverse-bg.png";
-// // import diverseimg9 from "../Assets/slide1.jpg";
-// import diverseimg10 from "../Assets/slide2.jpg";
-// import diverseimg11 from "../Assets/icon2.png";
-// import diverseimg11 from "../Assets/slide3.jpg";
-// import diverseimg12 from "../Assets/slide1.jpg";
-// import diverseimg13 from "../Assets/slide2.jpg";
 import icon1 from "../Assets/icon1.png";
 import icon2 from "../Assets/icon2.png";
 import icon3 from "../Assets/icon3.png";
@@ -29,30 +15,10 @@ import change5 from "../Assets/change5.png";
 import change6 from "../Assets/change6.png";
 import useWindowDimensions from "../utils/getWindowDimensions";
 const Diverse = () => {
-  // const images = document.querySelectorAll(".diverse-icon-row img");
-
-  // images.forEach((image, index) => {
-  //   image.addEventListener("click", () => {
-  //     const selectedDiv = document.querySelector(".selected-div-moving");
-  //     const parent = document.querySelector(".diverse-icon-row");
-
-  //     const imageRect = image.getBoundingClientRect();
-  //     const parentRect = parent.getBoundingClientRect();
-
-  //     const relativePosition = {
-  //       top: ((imageRect.top - parentRect.top) / parentRect.height) * 100,
-  //       left: ((imageRect.left - parentRect.left) / parentRect.width) * 100,
-  //     };
-
-  //     // selectedDiv.style.top = `${relativePosition.top}%`;
-  //     selectedDiv.style.left = `${relativePosition.left - 2.2}%`;
-  //   });
-  // });
-
-  const [selectedImage, setSelectedImage] = useState(0); // Track the selected image index
+  const [selectedImage, setSelectedImage] = useState(0);
 
   const handleImageClick = (index) => {
-    setSelectedImage(index); // Set the selected image index
+    setSelectedImage(index);
   };
 
   const { width } = useWindowDimensions();
@@ -103,9 +69,6 @@ const Diverse = () => {
             }`}
             key={index}
             onClick={() => handleImageClick(index)}
-            // style={
-            //   selectedImage === index ? { height: "187px", width: "115px" } : {}
-            // }
           >
             <div
               className={`image-container1 ${
@@ -154,10 +117,8 @@ const Diverse = () => {
                   alt="arrows"
                   className="diverse-outline image-class"
                 />
-                {/* <div className="diverse-outline-wrapper1"></div> */}
               </div>
             </div>
-            {/* <img src={diverseimg7} alt="change-bg" className="diverse-change-bg" /> */}
           </div>
         </div>
       </div>

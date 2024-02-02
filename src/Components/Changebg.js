@@ -1,9 +1,6 @@
 import React from "react";
 import "./Changebg.css";
 import filter_image from "../Assets/filters.PNG";
-// import bg_play from "../Assets/image 12.svg";
-// import bg_apple from "../Assets/apple1.png";
-// import qr_code from "../Assets/QR.png";
 import QR from "../Assets/Changebg-QR-Download.png";
 import iosimg from "../Assets/apple1.png";
 import googleImg from "../Assets/googleplayimage.png";
@@ -31,7 +28,7 @@ const Changebg = () => {
           <div className="col-md-6">
             <div className="bg-content">
               <img class="main-image" src={filter_image} alt="logo" />
-              {/* Div */}
+
               <div className="qr-code-box">
                 <div className="hover-div">
                   <h1>Download Our App</h1>
@@ -58,7 +55,7 @@ const Changebg = () => {
                     </div>
                   </div>
                 </div>
-                {/* Div */}
+
                 <div className="download-button">
                   <img src={qr2} alt="qrcode" className="qr2" />
                   <p className="download-app">Download App</p>
@@ -66,19 +63,6 @@ const Changebg = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className="image-content">
-          <p class="our-app">Download Our App</p>
-          <p className="bg-OR">OR</p>
-          <img src={qr_code} alt="qr_code" className="QR" />
-          <img src={bg_play} alt="google play link" className="bg-play" />
-          <img src={bg_apple} alt="ios link" className="bg-apple" />
-        </div>
-         </div> */}
-          {/* <div className="sticky-btn">
-          <img src={qr2} alt="qrcode" className="qr2" />
-          <p>Download App</p>
-        </div> */}
         </div>
       </div>
     </div>

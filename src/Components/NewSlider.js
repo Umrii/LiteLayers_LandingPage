@@ -5,12 +5,6 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import "./NewSlider.css";
 import { Pagination, Autoplay } from "swiper/modules";
-
-// import image1 from "../Assets/slide1.jpg";
-// import image2 from "../Assets/slider4.png";
-// import carimage from "../Assets/cars.png";
-// import flower from "../Assets/flower.jpg";
-// import image3 from "../Assets/slide3.jpg";
 import slideimg1 from "../Assets/Rectangle 115.png";
 import slideimg2 from "../Assets/Rectangle 116.png";
 import slideimg3 from "../Assets/Rectangle 117.png";
@@ -27,7 +21,7 @@ const texts = [
   "Text",
   "Text",
   "Cars & Vehicles",
-]; // Array of texts
+];
 
 export default function App() {
   return (
@@ -60,7 +54,6 @@ export default function App() {
               <div className="image-container">
                 <img src={image} alt="slider" className="slider-image" />
                 <div className="centered-text1">{texts[index]}</div>{" "}
-                {/* Text Overlay */}
               </div>
             </SwiperSlide>
           ))}

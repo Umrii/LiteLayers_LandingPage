@@ -1,17 +1,14 @@
 .background-parent {
-    /* position: relative; */
+
     background-color: #342547;
-    /* width: 100%; */
-    /* height: 100vh; */
+
     overflow-x: hidden;
     padding-top: 80px;
 
 }
 
 .custom-background {
-    /* position: absolute; */
-    /* top: 20%;
-    right: 0; */
+
     width: 99%;
     height: 100%;
     margin: 0 auto;
@@ -40,11 +37,11 @@
 
 .discover-text-div {
     margin-bottom: 10%;
-    /* position: absolute; */
+
 }
 
 .text-box-position {
-    position: absolute;
+    position: inherit;
 }
 
 .discover-heading {
@@ -54,9 +51,7 @@
     font-weight: 700;
     line-height: 170%;
     color: #FFF;
-    /* margin-bottom: 20%; */
 
-    /* margin-left: 5%; */
     letter-spacing: 12px;
 
 
@@ -68,11 +63,11 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    /* margin-left: 5%; */
+
     flex-wrap: wrap;
     line-height: 200%;
     letter-spacing: 1.68px;
-    /* margin-top: -20px; */
+
     width: 75%;
 }
 
@@ -80,36 +75,24 @@
     color: #FFF;
     font-family: 'Poppins';
     font-size: 16px;
-    /* font-style: normal; */
+
     font-weight: 700;
     margin-bottom: 4px;
-    /* margin-left: 5%; */
-    /* flex-wrap: wrap; */
-    /* line-height: 170%; */
-    /* margin-top: 5%;
-    margin-bottom: 5%; */
+
 }
 
 .discover-download {
     color: #FFF;
     font-family: 'Poppins';
     font-size: 16px;
-    /* font-style: normal; */
+
     font-weight: 700;
-    /* margin-left: 5%; */
-    /* flex-wrap: wrap;
-    line-height: 170%;
-    top: -5%;
-    position: relative; */
-    /* margin-bottom: 5%; */
 
 }
 
 .iosimage-div {
     display: flex;
-    /* position: relative;
-    top: -4%; */
-    /* left: 5%; */
+
 }
 
 .googleimage {
@@ -130,24 +113,6 @@
     margin-left: 0%;
 }
 
-/* 
-.row {
-    display: flex;
-    align-items: center;
-} */
-
-/* 
-@media(max-width: 450px) {
-    .custom-background {
-        flex-direction: column-reverse;
-    }
-
-    .iosimage-div {
-        flex-wrap: wrap;
-
-    }
-} */
-
 .banner-image-box.col-md-6 {
     margin-right: -115px;
 }
@@ -155,7 +120,7 @@
 @media (max-width:375px) {
     .iosimage {
         position: relative;
-        /* bottom:80px; */
+
 
     }
 

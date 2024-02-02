@@ -25,24 +25,23 @@
   }
 
   .logo {
-    /* width: 60px;
-  height: 100px; */
+
     height: 70px;
     margin-right: 2rem;
-    /* margin-top: 1rem; */
+
   }
 
   cl .logo-text {
     font-family: 'Poppins', sans-serif;
-    /* Adjust if the font is different */
+
     font-size: 48px;
-    /* Adjust based on the actual size in your design */
+
     font-weight: 800;
-    /* Adjust based on the actual weight in your design */
+
     color: #FFFFFF;
-    /* Assuming the text is white */
+
     margin-left: 16px;
-    /* Adjust the margin to set the distance from the logo */
+
 
   }
 
@@ -55,7 +54,7 @@
 
   .text-top {
     transform: translateY(-50%) translateX(-10%);
-    /* Moves the text up and to the left */
+
     background: #FFF5F5;
     background-clip: text;
     -webkit-background-clip: text;
@@ -72,7 +71,7 @@
 
   .text-bottom {
     transform: translateY(50%) translateX(-70%);
-    /* Moves the text down and to the right */
+
     background: linear-gradient(174deg, #FFF5F5 4.7%, rgba(255, 255, 255, 0.00) 98.5%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -108,7 +107,7 @@
 
   .browse-now {
     width: 137px;
-    /* height: 50px; */
+
     flex-shrink: 0;
     background-color: #342547;
     color: #FFF;
@@ -163,7 +162,7 @@
       width: 100%;
 
       margin-bottom: 0px;
-      /* Add space between buttons */
+
     }
 
     .buttons-container {

@@ -1,8 +1,7 @@
 .about-parent {
-    /* display: flex; */
-    /* overflow: hidden; */
+
     flex-wrap: wrap;
-    /* max-width: 100%; */
+
     margin-top: 5%;
     margin-bottom: 5%;
 
@@ -53,32 +52,16 @@
 
 .scan-me {
     text-align: center;
-    /* max-width: 80%; */
+
     position: absolute;
     top: 25%;
     margin-left: 5px;
-    /* right: 1%; */
-    /* top: 50%;
-    
-    left: 50%;
-    transform: translate(-50%, -50%); */
+
 }
 
-.qr-code {
-    /* height: 100px;
-    width: 100px;
-
-    position: absolute; */
-}
 
 .centered-image {
-    /* position: absolute;
-    top: 50%;
-    /* Places the centered image container at 50% from the top of the parent */
-    /* left: 50%; */
-    /* Places the centered image container at 50% from the left of the parent */
-    /* transform: translate(-50%, -50%);
-    z-index: 1; */
+
     margin-left: 10px;
 
     position: absolute;
@@ -90,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-bottom: 100px; */
+
 }
 
 
@@ -103,8 +86,7 @@
 
 .about_app {
     width: 100px;
-    /* position: absolute; */
-    /* margin-bottom: 100px; */
+
 
 }
 
@@ -125,7 +107,7 @@
     font-weight: 500;
     margin-top: 5%;
     line-height: 158%;
-    /* 39.5px */
+
 }
 
 .download-our-app {
@@ -194,7 +176,7 @@
     width: 631px;
     height: 218px;
     flex-shrink: 0;
-    /* 39.5px */
+
 }
 
 
@@ -209,7 +191,7 @@
 
 
 .image-banner {
-    /* background-color: lightblue; */
+
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -221,16 +203,16 @@
 .play,
 .apple {
     margin-bottom: 10px;
-    /* Spacing between each item */
+
 }
 
 .left-content {
     display: flex;
     flex-direction: column;
-    /* Stack items vertically */
+
     justify-content: center;
     margin-right: 20px;
-    /* Spacing between the left content and banner image */
+
     margin-bottom: 12rem;
 }
 
@@ -252,31 +234,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* Centers the content */
+
     }
 
-    /* .about-parent {
-        flex-direction: column;
-        /* Stack elements vertically on smaller screens */
-    /* }  */
+
 
     .play,
     .apple {
         display: flex;
         justify-content: center;
-        /* Center the play and apple icons horizontally */
+
     }
 
-    /* .text {
-        width: 50%;
-        box-sizing: border-box;
-    } */
-    /* 
-    .banner {
-        width: 50%;
-        box-sizing: border-box;
-
-    } */
 
     .content,
     .play,
@@ -284,20 +253,20 @@
     .or,
     .banner-image {
         width: 100% !important;
-        /* Adjust the width as needed */
+
         margin-bottom: 15px !important;
-        /* Space between elements */
+
     }
 
     .sub_text p {
         font-size: 14px;
-        /* Smaller font size */
+
         line-height: 1.4;
-        /* Adjust line height for compact text */
+
         padding: 10px;
-        /* Adjust padding as needed */
+
         max-height: 200px;
-        /* Set a maximum height */
+
         margin-left: 0rem;
         height: auto;
         width: auto;
@@ -328,14 +297,14 @@
 
     .image {
         width: 100%;
-        /* Make the image take full width on smaller screens */
+
         height: auto;
     }
 
     .banner-image {
         width: 15rem !important;
         height: auto;
-        /* Maintain aspect ratio */
+
     }
 
     .content {
@@ -407,8 +376,7 @@
 }
 
 .or {
-    /* margin-top:10rem; */
-    /* margin-right: 20px;  */
+
     position: absolute;
     margin-left: 19rem;
 }

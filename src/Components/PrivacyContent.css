@@ -1,0 +1,19 @@
+.privacy-parent {
+    font-family: 'Poppins';
+    background-color: black;
+    color: #fff;
+}
+
+h1:before {
+    border-bottom: 2px solid black;
+}
+
+.privacy-parent p {
+    margin-bottom: 10px;
+
+}
+
+.privacy-parent li {
+    margin-bottom: 10px;
+
+}

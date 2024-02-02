@@ -1,8 +1,6 @@
 import React from "react";
-import "./Navbar.css"; // Importing the CSS file
-// import image from "../Assets/logo.png";
+import "./Navbar.css";
 import logos from "../Assets/LiteLayers.png";
-// import btnQR from "../Assets/button-qr.png";
 
 const Navbar = () => {
   return (
@@ -17,13 +15,12 @@ const Navbar = () => {
               <div className="text-bottom">LAYERS</div>
             </div>
             <div className="buttons-container">
-              <button className="browse-now">Browse Now</button>
-              {/* <a href="#download"> */}
-              <button className="button grab-the-app">
-                {/* <img className="btnQR" src={btnQR} alt="qrcode" /> */}
-                Grab the app
-              </button>
-              {/* </a> */}
+              <a href="/" className="d-flex text-decoration-none">
+                <button className="browse-now">Browse Now</button>
+              </a>
+              <a href="/" className="text-decoration-none">
+                <button className="button grab-the-app">Grab the app</button>
+              </a>
             </div>
           </nav>
         </div>
